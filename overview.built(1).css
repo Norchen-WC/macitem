@@ -1,0 +1,22 @@
+/*built 2019-06-10*/
+@media only screen and (max-width: 1068px) {
+    .graph-slide .graph-container .badge .badge-caption {
+        width: calc(100% - 115px);
+        padding-left: 25px;
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .graph-slide .graph-container .badge .badge-caption {
+        width: calc(100% - 95px);
+        padding-left: 25px;
+    }
+}
+
+.subsection-radeon .mpx-container .pin-holder .pin-caption span.nowrap{
+	display: inline-block;
+}
+
+.icon-wrapper .icon-playcircle.icon-after{
+	font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
