@@ -1,7 +1,7 @@
 .imac主页广告{
 	font-size: 20px;
-	background: dimgray;
-	height: 30px;
+	background: #444;
+	height: 40px;
 	width:100% ;
 	position: relative;
 }
@@ -11,47 +11,40 @@
 	display: inline;
 }
 
-.title1{
-	list-style-type: none;
-	display: inline;
-	cursor: default;
-	margin: 0 -10px;
-	width: auto;
-	height: 44px;
-}
 
-.title1 li{
-	display: inline;	
-	width:60px;
-	margin-left: 40px;
-	font-size: 6px;
-	text-align: center;
-}
 
 .title1_style1{
 	cursor: default;
     margin: 0 -10px;
     width: auto;
     height: 44px;
+	line-height: 44px;
 	display: inline;
 	list-style-type: none;
 }
 
-.title1_style1_li{
-	margin-left: 140px;
-	font-size: 20px;
-	box-sizing: border-box;
-    display: inline;
-    position: relative;
-    height: 44px;
-    z-index: 1;
-    vertical-align: top;
+
+.title1_style1 li{
+	list-style-type: none;
+	display: inline;
+	text-align: left;
+	text-decoration: none;
+	width:60px;
+	margin-left: 40px;
+	font-size: 17px;
+	text-align: center;
+	color: white;
+	
 }
+
+.title1_style1_li:hover{
+				color: #FFFFFF;
+			}
 
 .imac_img {
 	display: inline-block;
 	}
-	
+
 .text{
 	font-size: 10px;
 	font-weight: bold;
@@ -68,9 +61,9 @@
 
 .list{
 	display: inline-block;
-	width:450px ;
+	width:238px ;
 	text-align: left;
-	background: whitesmoke;
+	background-color: #F2F2F2;
 }
 
 .ul_style1{
@@ -94,6 +87,19 @@
 	font-weight: bold;
 	text-align: center;	
 	color: black;
+}
+
+.ul_style2{
+	background-color: #F2F2F2;
+	text-align: center;
+}
+.ul_style2 ol{
+	margin:0 auto;
+	display: table;
+	font-size: 10px;
+	color: gray;
+	text-align: left;
+
 }
 
 .none{
