@@ -1,25 +1,205 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>QQä¼šå‘˜é¡µé¢å¯¼èˆª</title>
-		<link href="QQ.css" rel="stylesheet" type="text/css"  />
-	</head>
-	<body>
-		<div id="contain">
-		<div id="list">
-			<ul>
-				<li><a href="#">åŠŸèƒ½ç‰¹æƒ</a></li>
-				<li><a href="#">æ¸¸æˆç‰¹æƒ</a></li>
-				<li><a href="#">ç”Ÿæ´»ç‰¹æƒ</a></li>
-				<li><a href="#">ä¼šå‘˜æ´»åŠ¨</a></li>
-				<li><a href="#">æˆé•¿ä½“ç³»</a></li>
-				<li><a href="#">å¹´è´¹ä¸“åŒº</a></li>
-				<li><a href="#">è¶…çº§ä¼šå‘˜</a></li>
-				<li><a href="#" id="login">ç™»å½•</a></li>
-				<li><a href="#" id="open">å¼€é€šè¶…çº§ä¼šå‘˜</a></li>
-			</ul>
-		</div>
-		</div>
-	</body>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>Ö÷Ò³</title>
+<link href="css/layout.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="container">
+  <div id="header">
+    <div id="logo"><img src="images/logo.gif" alt="ÆóÒµÃû³Æ" width="181" height="45" /></div>
+    <div id="search">
+      <form id="form1" name="form1" method="post" action="">
+        ËÑË÷²úÆ·
+        <input class="inp_srh" type="text" name="textfield" id="textfield" />
+        <input class="btn_srh" type="submit" name="button" id="button" value="²éÑ¯" />
+      </form>
+    </div>
+  </div>
+  <div class="clearfloat"></div>
+  <div id="nav">
+  	<div id="nav_l"></div>
+    <div id="nav_r"></div>
+    <div class="nav_main">
+      <ul>
+        <li><a href="#"><span>Ê×Ò³</span></a></li>
+        <li><a href="#" id="nav_current"><span>ÆóÒµÐÂÎÅ</span></a></li>
+        <li><a href="#"><span>ÆóÒµ¼ò½é</span></a></li>
+        <li><a href="#"><span>²úÆ·Õ¹Ìü</span></a></li>
+        <li><a href="#"><span>ÆóÒµÀúÊ·</span></a></li>
+        <li><a href="#"><span>ÕÐÉÌ¼ÓÃË</span></a></li>
+        <li><a href="#"><span>ÍøÉÏÏÂµ¥</span></a></li>
+        <li><a href="#"><span>ÁªÏµÎÒÃÇ</span></a></li>
+      </ul>
+    </div>
+    <div class="nav_son">
+    	<ul>
+        <li><a href="#">ÆóÒµ¶¯Ì¬</a></li>
+        <li><a href="#">Áìµ¼»î¶¯</a></li>
+        <li><a href="#">²úÆ·×ÊÑ¶</a></li>
+        <li><a href="#">Í¨Öª¹«¸æ</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="clearfloat"></div>
+  <div id="maincontent">
+    <div id="main">
+      <div id="index_top">
+        <div id="pic">
+					<script language='javascript' type="text/javascript">
+            linkarr = new Array();
+            picarr = new Array();
+            textarr = new Array();
+            var swf_width=269;
+            var swf_height=210;
+            var files = "images/pic.jpg|images/pic1.jpg|images/pic2.jpg|images/pic3.jpg";
+            var links = "#|#|#|#";
+            var texts = "";
+            for(i=1;i<picarr.length;i++){
+              if(files=="") files = picarr[i];
+              else files += "|"+picarr[i];
+            }
+            for(i=1;i<linkarr.length;i++){
+              if(links=="") links = linkarr[i];
+              else links += "|"+linkarr[i];
+            }
+            for(i=1;i<textarr.length;i++){
+              if(texts=="") texts = textarr[i];
+              else texts += "|"+textarr[i];
+            }
+            document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="'+ swf_width +'" height="'+ swf_height +'">');
+            document.write('<param name="movie" value="images/indexpic.swf"><param name="quality" value="high">');
+            document.write('<param name="menu" value="false"><param name=wmode value="opaque">');
+            document.write('<param name="FlashVars" value="bcastr_file='+files+'&bcastr_link='+links+'&bcastr_title='+texts+'">');
+            document.write('<embed src="images/indexpic.swf" wmode="opaque" FlashVars="bcastr_file='+files+'&bcastr_link='+links+'&bcastr_title='+texts+'& menu="false" quality="high" width="'+ swf_width +'" height="'+ swf_height +'" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />'); document.write('</object>');
+          </script>
+          <div id="login"><span><a href="#"><img src="images/btn_login1.gif" alt="¸öÈËÓÃ»§µÇÂ¼" width="131" height="39" /></a></span><a href="#"><img src="images/btn_login.gif" alt="¾­ÏúÉÌµÇÂ¼" width="131" height="39" /></a></div>
+        </div>
+        <div id="hot_news">
+          <div id="news_top">
+            <h1>Æ»¹ûiphone 4ÊÖ»ú½«ÓÚ9ÔÂ25ÈÕÔÚÖÐ¹úÉÏÊÐ</h1>
+            <p>ÈÕÇ°ÖÐ¹úÁªÍ¨ÕýÊ½Ðû²¼½«ÓÚ9ÔÂ25ÈÕ9Ê±ÔÚÖÐ¹ú´óÂ½ÊÐ³¡È«ÃæÍÆ³öiPhone4£¬²¢ÎªiPhone4ÓÃ»§Á¿Éí¶¨ÖÆÁËºÏÔ¼¼Æ»®¡£</p>
+          </div>
+          <div id="news_list">
+            <ul>
+              <li><span>9-22</span><a href="#">´¿CSSÊµÏÖÈýÁÐDIVµÈ¸ß²¼¾Ö</a></li>
+              <li><span>9-22</span><a href="#">HTMLÔªËØµÄIDºÍNameÊôÐÔµÄÇø±ð</a></li>
+              <li><span>9-22</span><a href="#">ÍêÃÀ¼æÈÝie6,ie7,ie8ÒÔ¼°firefoxµÄcssÍ¸Ã÷ÂË¾µ</a></li>
+              <li><span>9-22</span><a href="#">DIV+CSSÊµÏÖ·Å´ó¾µÐ§¹ûµÄ·ÖÒ³ÑùÊ½</a></li>
+              <li><span>9-22</span><a href="#">javascriptÎªFFÉèÖÃÊ×Ò³</a></li>
+              <li><span>9-22</span><a href="#">¸´ÖÆµ½ÏµÍ³¼ôÌù°åÖ®IE,ff¼æÈÝ°æ</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="index_pic">
+        <h2><span></span></h2>
+        <ul>
+        	<li><a href="#"><img src="images/pic4.gif" alt="²úÆ·Ãû³Æ" width="107" height="87" />²úÆ·Ãû³Æ</a></li>
+          <li><a href="#"><img src="images/pic4.gif" alt="²úÆ·Ãû³Æ" width="107" height="87" />²úÆ·Ãû³Æ</a></li>
+          <li><a href="#"><img src="images/pic4.gif" alt="²úÆ·Ãû³Æ" width="107" height="87" />²úÆ·Ãû³Æ</a></li>
+          <li><a href="#"><img src="images/pic4.gif" alt="²úÆ·Ãû³Æ" width="107" height="87" />²úÆ·Ãû³Æ</a></li>
+          <li><a href="#"><img src="images/pic4.gif" alt="²úÆ·Ãû³Æ" width="107" height="87" />²úÆ·Ãû³Æ</a></li>
+          <li><a href="#"><img src="images/pic4.gif" alt="²úÆ·Ãû³Æ" width="107" height="87" />²úÆ·Ãû³Æ</a></li>
+          <li><a href="#"><img src="images/pic4.gif" alt="²úÆ·Ãû³Æ" width="107" height="87" />²úÆ·Ãû³Æ</a></li>
+          <li><a href="#"><img src="images/pic4.gif" alt="²úÆ·Ãû³Æ" width="107" height="87" />²úÆ·Ãû³Æ</a></li>
+          <li><a href="#"><img src="images/pic4.gif" alt="²úÆ·Ãû³Æ" width="107" height="87" />²úÆ·Ãû³Æ</a></li>
+          <li><a href="#"><img src="images/pic4.gif" alt="²úÆ·Ãû³Æ" width="107" height="87" />²úÆ·Ãû³Æ</a></li>
+        </ul>
+      </div>
+      <div id="index_box">
+        <div class="box">
+          <h2><a class="more" href="#">¸ü¶à..</a><span>ÆóÒµÀúÊ·</span></h2>
+          <div class="box_con">
+            <dl>
+              <dt><a href="#"><img src="images/pic5.gif" alt="¶à½Ç¶È¶Ô±È Æ»¹ûiPodÏµÁÐÕæ»ú" width="91" height="70" /></a></dt>
+              <dd><a href="#"><strong>¶à½Ç¶È¶Ô±È Æ»¹ûiPodÏµÁÐÕæ»ú</strong></a>
+              µ¼ÑÔ£º±±¾©Ê±¼ä9ÔÂ2ÈÕÁè³¿1µãÆ»¹ûÔÚ¾É½ðÉ½¾ÙÐÐÐÂÆ··¢²¼»á£¬ÊýÂëÌØÅÉ¼ÇÕßÔÚÃÀ¹úÏÖ³¡Ö±²¥&hellip;</dd>
+            </dl>
+            <ul>
+            	<li><a href="#">´¿CSSÊµÏÖÈýÁÐDIVµÈ¸ß²¼¾Ö</a></li>
+              <li><a href="#">HTMLÔªËØµÄIDºÍNameÊôÐÔµÄÇø±ð</a></li>
+              <li><a href="#">ÍêÃÀ¼æÈÝie6,ie7,ie8ÒÔ¼°firefoxµÄcssÍ¸Ã÷ÂË¾µ</a></li>
+              <li><a href="#">DIV+CSSÊµÏÖ·Å´ó¾µÐ§¹ûµÄ·ÖÒ³ÑùÊ½</a></li>
+              <li><a href="#">javascriptÎªFFÉèÖÃÊ×Ò³</a></li>
+              <li><a href="#">¸´ÖÆµ½ÏµÍ³¼ôÌù°åÖ®IE,ff¼æÈÝ°æ</a></li>
+              <li><a href="#">DIV+CSSÊµÏÖ·Å´ó¾µÐ§¹ûµÄ·ÖÒ³ÑùÊ½</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="box box1">
+          <h2><a class="more" href="#">¸ü¶à..</a><span>ÆóÒµÀúÊ·</span></h2>
+          <div class="box_con">
+            <dl>
+              <dt><a href="#"><img src="images/pic5.gif" alt="¶à½Ç¶È¶Ô±È Æ»¹ûiPodÏµÁÐÕæ»ú" width="91" height="70" /></a></dt>
+              <dd><a href="#"><strong>¶à½Ç¶È¶Ô±È Æ»¹ûiPodÏµÁÐÕæ»ú</strong></a>
+              µ¼ÑÔ£º±±¾©Ê±¼ä9ÔÂ2ÈÕÁè³¿1µãÆ»¹ûÔÚ¾É½ðÉ½¾ÙÐÐÐÂÆ··¢²¼»á£¬ÊýÂëÌØÅÉ¼ÇÕßÔÚÃÀ¹úÏÖ³¡Ö±²¥&hellip;</dd>
+            </dl>
+            <ul>
+            	<li><a href="#">´¿CSSÊµÏÖÈýÁÐDIVµÈ¸ß²¼¾Ö</a></li>
+              <li><a href="#">HTMLÔªËØµÄIDºÍNameÊôÐÔµÄÇø±ð</a></li>
+              <li><a href="#">ÍêÃÀ¼æÈÝie6,ie7,ie8ÒÔ¼°firefoxµÄcssÍ¸Ã÷ÂË¾µ</a></li>
+              <li><a href="#">DIV+CSSÊµÏÖ·Å´ó¾µÐ§¹ûµÄ·ÖÒ³ÑùÊ½</a></li>
+              <li><a href="#">javascriptÎªFFÉèÖÃÊ×Ò³</a></li>
+              <li><a href="#">¸´ÖÆµ½ÏµÍ³¼ôÌù°åÖ®IE,ff¼æÈÝ°æ</a></li>
+              <li><a href="#">DIV+CSSÊµÏÖ·Å´ó¾µÐ§¹ûµÄ·ÖÒ³ÑùÊ½</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="side">
+      <div class="side_box">
+        <h2><strong>²úÆ·</strong>µ¼¹º</h2>
+        <div class="side_con product">
+          <ul>
+            <li><strong>ÓïÒôÒµÎñ£º</strong><a href="#">ÆÕÍ¨µç»°</a> | <a href="#">ÓïÒôÊý×ÖÖÐ¼Ì</a></li>
+            <li><strong>ÓïÒôÒµÎñ£º</strong><a href="#">ÆÕÍ¨µç»°</a> | <a href="#">ÓïÒôÊý×ÖÖÐ¼Ì</a></li>
+            <li class="product3"><strong>ÓïÒôÒµÎñ£º</strong><a href="#">ÆÕÍ¨µç»°</a> | <a href="#">ÓïÒôÊý×ÖÖÐ¼Ì</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="side_box">
+        <h2><strong>Ê¹ÓÃ</strong>ÎÊ´ð</h2>
+        <div class="side_con ask">
+          <dl>
+            <dt><a href="#">×îÐÂ³öµÄÕâ¸ö²úÆ·ÈçºÎÊ¹ÓÃ£¿</a></dt>
+            <dd>¸Ã²úÆ·²ÉÓÃÈ«ÐÂµÄ¼¼Êõ£¬½ÏÉÏÒ»²úÆ·ÓÐÖÊµÄ·ÉÔ¾£¬¹¦ÄÜÉÏÔöÇ¿ÁËÐí¶à£¬Ê¹ÓÃ·½·¨¸ü¼Ó¼ò±ã...</dd>
+          </dl>
+          <dl>
+            <dt><a href="#">×îÐÂ³öµÄÕâ¸ö²úÆ·ÈçºÎÊ¹ÓÃ£¿</a></dt>
+            <dd>¸Ã²úÆ·²ÉÓÃÈ«ÐÂµÄ¼¼Êõ£¬½ÏÉÏÒ»...</dd>
+          </dl>
+          <dl>
+            <dt><a href="#">×îÐÂ³öµÄÕâ¸ö²úÆ·ÈçºÎÊ¹ÓÃ£¿</a></dt>
+            <dd>¸Ã²úÆ·²ÉÓÃÈ«ÐÂµÄ¼¼Êõ£¬½ÏÉÏÒ»²úÆ·ÓÐÖÊµÄ·ÉÔ¾£¬¹¦ÄÜÉÏÔöÇ¿ÁË...</dd>
+          </dl>
+          <dl>
+            <dt><a href="#">×îÐÂ³öµÄÕâ¸ö²úÆ·ÈçºÎÊ¹ÓÃ£¿</a></dt>
+            <dd>¸Ã²úÆ·²ÉÓÃÈ«ÐÂµÄ¼¼Êõ£¬½ÏÉÏÒ»²úÆ·ÓÐÖÊµÄ·ÉÔ¾£¬¹¦ÄÜÉÏÔöÇ¿...</dd>
+          </dl>
+          <dl>
+            <dt><a href="#">×îÐÂ³öµÄÕâ¸ö²úÆ·ÈçºÎÊ¹ÓÃ£¿</a></dt>
+            <dd>¸Ã²úÆ·²ÉÓÃÈ«ÐÂµÄ¼¼Êõ£¬½ÏÉÏÒ»²úÆ·ÓÐÖÊµÄ·ÉÔ¾£¬¹¦ÄÜÉÏÔöÇ¿ÁËÐí¶à£¬Ê¹ÓÃ·½·¨¸ü¼Ó¼ò±ã...</dd>
+          </dl>
+        </div>
+      </div>
+      <div class="side_box">
+        <h2><strong>ÁªÏµ</strong>ÎÒÃÇ</h2>
+        <div class="side_con contact"><a href="#"><img src="images/tel.gif" alt="ÁªÏµÎÒÃÇ" width="222" height="112" /></a></div>
+      </div>
+    </div>
+  </div>
+  <div class="clearfloat"></div>
+  <div id="footer">
+    <dl>
+    <dt><a href="#">¹ØÓÚÎÒÃÇ</a>¡¡||¡¡<a href="#">²úÆ·Ä¿Â¼</a>¡¡||¡¡<a href="#">ÁªÏµÎÒÃÇ</a>¡¡||¡¡<a href="#">ÓÑÇéÁ´½Ó</a>¡¡||¡¡<a href="#">·´À¡ÎÊÌâ</a>¡¡||¡¡<a href="#">¹ã¸æºÏ×÷</a></dt>
+      <dd>Copyright &copy; 2007 - 2010 aa25.cn   All Rights Reserved<br />
+          ±ê×¼Ö®Â·  °æÈ¨ËùÓÐ  ¾©ICP±¸10007159ºÅ</dd>
+    </dl>
+  </div>
+</div>
+</body>
 </html>
