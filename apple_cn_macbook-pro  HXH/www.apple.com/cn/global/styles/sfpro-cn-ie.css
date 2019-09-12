@@ -1,0 +1,11 @@
+/* WEB FONT 2016.12.22 */
+/*PC*/
+@media \0screen {*{font-family: 'Microsoft yahei','微软雅黑', "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;}
+.footer-shop, .footer-links, .footer-sosumi{font-size:10px; line-height:1.5;}
+.fix-width{width:65%;}
+}
+
+.text-wrapper,.typography-headline-elevated,.typography-headline-elevated-custom,.typography-headline-reduced {
+	padding-top: 0.2em;
+}
+/*PC end*/
