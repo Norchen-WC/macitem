@@ -1,0 +1,1686 @@
+@-webkit-keyframes macbookpro-violator {
+    0% {
+        opacity: 0;
+        -webkit-animation-timing-function: ease;
+        animation-timing-function: ease
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes macbookpro-violator {
+    0% {
+        opacity: 0;
+        -webkit-animation-timing-function: ease;
+        animation-timing-function: ease
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+.violator {
+        -webkit-animation: macbookpro-violator 2s 2s both;
+        animation: macbookpro-violator 2s 2s both;
+
+}
+
+#performance-gallery .ac-tabnav-link:lang(zh) {
+    font-size: 17px;
+    line-height: 1.4446;
+}
+
+@media only screen and (max-width: 735px) {
+    #performance-gallery .ac-tabnav-link:lang(zh) {
+        font-size: 16px;
+        line-height: 21px;
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-thunderbolt figcaption.display-raid-right {
+        left: 375px;
+    }
+}
+@media only screen and (max-width: 735px) {
+    .section-thunderbolt figcaption.display-raid-right {
+        left: 310px
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+.section-speakers .speakers-image-description {
+    bottom: -67px;
+}
+}
+
+.expand-touchbar .image-apps-gallery-davinci {
+    background-image: url(../images/overview/apps_gallery_davinci_large.jpg")
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .expand-touchbar .image-apps-gallery-davinci {
+        background-image:url(../images/overview/apps_gallery_davinci_large_2x.jpg")
+}
+}
+@media only screen and (max-width: 1068px) {
+    .expand-touchbar .image-apps-gallery-davinci {
+        background-image: url(../images/overview/apps_gallery_davinci_medium.jpg")
+}
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .expand-touchbar .image-apps-gallery-davinci {
+        background-image:url(../images/overview/apps_gallery_davinci_medium_2x.jpg")
+}
+}
+@media only screen and (max-width: 735px) {
+    .expand-touchbar .image-apps-gallery-davinci {
+        background-image: url(../images/overview/apps_gallery_davinci_small.jpg")
+}
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .expand-touchbar .image-apps-gallery-davinci {
+        background-image:url(../images/overview/apps_gallery_davinci_small_2x.jpg")
+}
+}
+.expand-touchbar .image-apps-gallery-logicprox {
+    background-image: url(../images/overview/apps_gallery_logicprox_large.jpg")
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .expand-touchbar .image-apps-gallery-logicprox {
+        background-image:url(../images/overview/apps_gallery_logicprox_large_2x.jpg")
+}
+}
+@media only screen and (max-width: 1068px) {
+    .expand-touchbar .image-apps-gallery-logicprox {
+        background-image: url(../images/overview/apps_gallery_logicprox_medium.jpg")
+}
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .expand-touchbar .image-apps-gallery-logicprox {
+        background-image:url(../images/overview/apps_gallery_logicprox_medium_2x.jpg")
+}
+}
+@media only screen and (max-width: 735px) {
+    .expand-touchbar .image-apps-gallery-logicprox {
+        background-image: url(../images/overview/apps_gallery_logicprox_small.jpg")
+}
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .expand-touchbar .image-apps-gallery-logicprox {
+        background-image:url(../images/overview/apps_gallery_logicprox_small_2x.jpg")
+}
+}
+.expand-touchbar .image-apps-gallery-autocad {
+    background-image: url(../images/overview/apps_gallery_office_large.jpg")
+}
+.expand-touchbar .image-apps-gallery-office {
+    background-image: url(../images/overview/apps_gallery_office_large.jpg")
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .expand-touchbar .image-apps-gallery-autocad {
+        background-image:url(../images/overview/apps_gallery_office_large_2x.jpg")
+}
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .expand-touchbar .image-apps-gallery-office {
+        background-image:url(../images/overview/apps_gallery_office_large_2x.jpg")
+}
+}
+@media only screen and (max-width: 1068px) {
+    .expand-touchbar .image-apps-gallery-autocad {
+        background-image: url(../images/overview/apps_gallery_office_medium.jpg")
+}
+}
+@media only screen and (max-width: 1068px) {
+    .expand-touchbar .image-apps-gallery-office {
+        background-image: url(../images/overview/apps_gallery_office_medium.jpg")
+}
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .expand-touchbar .image-apps-gallery-autocad {
+        background-image:url(../images/overview/apps_gallery_office_medium_2x.jpg")
+}
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .expand-touchbar .image-apps-gallery-office {
+        background-image:url(../images/overview/apps_gallery_office_medium_2x.jpg")
+}
+}
+@media only screen and (max-width: 735px) {
+    .expand-touchbar .image-apps-gallery-autocad {
+        background-image: url(../images/overview/apps_gallery_office_small.jpg")
+}
+}
+@media only screen and (max-width: 735px) {
+    .expand-touchbar .image-apps-gallery-office {
+        background-image: url(../images/overview/apps_gallery_office_small.jpg")
+}
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .expand-touchbar .image-apps-gallery-autocad {
+        background-image:url(../images/overview/apps_gallery_office_small_2x.jpg")
+}
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .expand-touchbar .image-apps-gallery-office {
+        background-image:url(../images/overview/apps_gallery_office_small_2x.jpg")
+}
+}
+.expand-touchbar .image-apps-gallery-photoshop {
+    background-image: url(../images/overview/apps_gallery_photoshop_large.jpg")
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .expand-touchbar .image-apps-gallery-photoshop {
+        background-image:url(../images/overview/apps_gallery_photoshop_large_2x.jpg")
+}
+}
+@media only screen and (max-width: 1068px) {
+    .expand-touchbar .image-apps-gallery-photoshop {
+        background-image: url(../images/overview/apps_gallery_photoshop_medium.jpg")
+}
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .expand-touchbar .image-apps-gallery-photoshop {
+        background-image:url(../images/overview/apps_gallery_photoshop_medium_2x.jpg")
+}
+}
+@media only screen and (max-width: 735px) {
+    .expand-touchbar .image-apps-gallery-photoshop {
+        background-image: url(../images/overview/apps_gallery_photoshop_small.jpg")
+}
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .expand-touchbar .image-apps-gallery-photoshop {
+        background-image:url(../images/overview/apps_gallery_photoshop_small_2x.jpg")
+}
+}
+.section-hero .image-hero {
+    background-image: url(../images/overview/intro_large.jpg")
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-hero .image-hero {
+        background-image:url(../images/overview/intro_large_2x.jpg")
+}
+}
+@media only screen and (max-width: 1068px) {
+    .section-hero .image-hero {
+        background-image: url(../images/overview/intro_medium.jpg")
+}
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-hero .image-hero {
+        background-image:url(../images/overview/intro_medium_2x.jpg")
+}
+}
+@media only screen and (max-width: 735px) {
+    .section-hero .image-hero {
+        background-image: url(../images/overview/intro_small.jpg")
+}
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .section-hero .image-hero {
+        background-image:url(../images/overview/intro_small_2x.jpg")
+}
+}
+.section-keyboard-trackpad .image-device-15mbp-tb {
+    background-image: url(../images/overview/keyboard_gallery1_large.jpg")
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-keyboard-trackpad .image-device-15mbp-tb {
+        background-image:url(../images/overview/keyboard_gallery1_large_2x.jpg")
+}
+}
+@media only screen and (max-width: 1068px) {
+    .section-keyboard-trackpad .image-device-15mbp-tb {
+        background-image: url(../images/overview/keyboard_gallery1_medium.jpg")
+}
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-keyboard-trackpad .image-device-15mbp-tb {
+        background-image:url(../images/overview/keyboard_gallery1_medium_2x.jpg")
+}
+}
+@media only screen and (max-width: 735px) {
+    .section-keyboard-trackpad .image-device-15mbp-tb {
+        background-image: url(../images/overview/keyboard_gallery1_small.jpg")
+}
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .section-keyboard-trackpad .image-device-15mbp-tb {
+        background-image:url(../images/overview/keyboard_gallery1_small_2x.jpg")
+}
+}
+.section-keyboard-trackpad .image-device-13mbp-tb {
+    background-image: url(../images/overview/keyboard_gallery2_large.jpg")
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-keyboard-trackpad .image-device-13mbp-tb {
+        background-image:url(../images/overview/keyboard_gallery2_large_2x.jpg")
+}
+}
+@media only screen and (max-width: 1068px) {
+    .section-keyboard-trackpad .image-device-13mbp-tb {
+        background-image: url(../images/overview/keyboard_gallery2_medium.jpg")
+}
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-keyboard-trackpad .image-device-13mbp-tb {
+        background-image:url(../images/overview/keyboard_gallery2_medium_2x.jpg")
+}
+}
+@media only screen and (max-width: 735px) {
+    .section-keyboard-trackpad .image-device-13mbp-tb {
+        background-image: url(../images/overview/keyboard_gallery2_small.jpg")
+}
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .section-keyboard-trackpad .image-device-13mbp-tb {
+        background-image:url(../images/overview/keyboard_gallery2_small_2x.jpg")
+}
+}
+.section-keyboard-trackpad .image-device-13mbp {
+    background-image: url(../images/overview/keyboard_gallery3_large.jpg")
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-keyboard-trackpad .image-device-13mbp {
+        background-image:url(../images/overview/keyboard_gallery3_large_2x.jpg")
+}
+}
+@media only screen and (max-width: 1068px) {
+    .section-keyboard-trackpad .image-device-13mbp {
+        background-image: url(../images/overview/keyboard_gallery3_medium.jpg")
+}
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-keyboard-trackpad .image-device-13mbp {
+        background-image:url(../images/overview/keyboard_gallery3_medium_2x.jpg")
+}
+}
+@media only screen and (max-width: 735px) {
+    .section-keyboard-trackpad .image-device-13mbp {
+        background-image: url(../images/overview/keyboard_gallery3_small.jpg")
+}
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .section-keyboard-trackpad .image-device-13mbp {
+        background-image:url(../images/overview/keyboard_gallery3_small_2x.jpg")
+}
+}
+.section-macos .image-macos-hero {
+    background-image: url(../images/overview/macos_large.jpg")
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-macos .image-macos-hero {
+        background-image:url(../images/overview/macos_large_2x.jpg")
+}
+}
+@media only screen and (max-width: 1068px) {
+    .section-macos .image-macos-hero {
+        background-image: url(../images/overview/macos_medium.jpg")
+}
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-macos .image-macos-hero {
+        background-image:url(../images/overview/macos_medium_2x.jpg")
+}
+}
+@media only screen and (max-width: 735px) {
+    .section-macos .image-macos-hero {
+        background-image: url(../images/overview/macos_small.jpg")
+}
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .section-macos .image-macos-hero {
+        background-image:url(../images/overview/macos_small_2x.jpg")
+}
+}
+.section-speakers .image-speakers-hero .image-speakers-images .image-speakers-internal {
+    background-image: url(../images/overview/speakers_before_large.jpg")
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-speakers .image-speakers-hero .image-speakers-images .image-speakers-internal {
+        background-image:url(../images/overview/speakers_before_large_2x.jpg")
+}
+}
+@media only screen and (max-width: 1068px) {
+    .section-speakers .image-speakers-hero .image-speakers-images .image-speakers-internal {
+        background-image: url(../images/overview/speakers_before_medium.jpg")
+}
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-speakers .image-speakers-hero .image-speakers-images .image-speakers-internal {
+        background-image:url(../images/overview/speakers_before_medium_2x.jpg")
+}
+}
+@media only screen and (max-width: 735px) {
+    .section-speakers .image-speakers-hero .image-speakers-images .image-speakers-internal {
+        background-image: url(../images/overview/speakers_before_small.jpg")
+}
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .section-speakers .image-speakers-hero .image-speakers-images .image-speakers-internal {
+        background-image:url(../images/overview/speakers_before_small_2x.jpg")
+}
+}
+.section-speakers .image-speakers-hero .image-speakers-images .image-speakers-external {
+    background-image: url(../images/overview/speakers_large.jpg")
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-speakers .image-speakers-hero .image-speakers-images .image-speakers-external {
+        background-image:url(../images/overview/speakers_large_2x.jpg")
+}
+}
+@media only screen and (max-width: 1068px) {
+    .section-speakers .image-speakers-hero .image-speakers-images .image-speakers-external {
+        background-image: url(../images/overview/speakers_medium.jpg")
+}
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-speakers .image-speakers-hero .image-speakers-images .image-speakers-external {
+        background-image:url(../images/overview/speakers_medium_2x.jpg")
+}
+}
+@media only screen and (max-width: 735px) {
+    .section-speakers .image-speakers-hero .image-speakers-images .image-speakers-external {
+        background-image: url(../images/overview/speakers_small.jpg")
+}
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .section-speakers .image-speakers-hero .image-speakers-images .image-speakers-external {
+        background-image:url(../images/overview/speakers_small_2x.jpg")
+}
+}
+html.css-mask-or-clip-path .section-touchbar-touchid .image-touchbar-hardware-background {
+    background-image: url(../images/overview/touchbar_gallery_hardware_large.jpg")
+}
+html.css-mask-or-clip-path .ie .image-touchbar-hardware-background {
+    background-image: url(../images/overview/touchbar_gallery_hardware_large.jpg")
+}
+html.css-mask-or-clip-path .edge .image-touchbar-hardware-background {
+    background-image: url(../images/overview/touchbar_gallery_hardware_large.jpg")
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    html.css-mask-or-clip-path .section-touchbar-touchid .image-touchbar-hardware-background {
+        background-image:url(../images/overview/touchbar_gallery_hardware_large_2x.jpg")
+}
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    html.css-mask-or-clip-path .ie .image-touchbar-hardware-background {
+        background-image:url(../images/overview/touchbar_gallery_hardware_large_2x.jpg")
+}
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    html.css-mask-or-clip-path .edge .image-touchbar-hardware-background {
+        background-image:url(../images/overview/touchbar_gallery_hardware_large_2x.jpg")
+}
+}
+@media only screen and (max-width: 1068px) {
+    html.css-mask-or-clip-path .section-touchbar-touchid .image-touchbar-hardware-background {
+        background-image: url(../images/overview/touchbar_gallery_hardware_medium.jpg")
+}
+}
+@media only screen and (max-width: 1068px) {
+    html.css-mask-or-clip-path .ie .image-touchbar-hardware-background {
+        background-image: url(../images/overview/touchbar_gallery_hardware_medium.jpg")
+}
+}
+@media only screen and (max-width: 1068px) {
+    html.css-mask-or-clip-path .edge .image-touchbar-hardware-background {
+        background-image: url(../images/overview/touchbar_gallery_hardware_medium.jpg")
+}
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    html.css-mask-or-clip-path .section-touchbar-touchid .image-touchbar-hardware-background {
+        background-image:url(../images/overview/touchbar_gallery_hardware_medium_2x.jpg")
+}
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    html.css-mask-or-clip-path .ie .image-touchbar-hardware-background {
+        background-image:url(../images/overview/touchbar_gallery_hardware_medium_2x.jpg")
+}
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    html.css-mask-or-clip-path .edge .image-touchbar-hardware-background {
+        background-image:url(../images/overview/touchbar_gallery_hardware_medium_2x.jpg")
+}
+}
+
+@media only screen and (max-width: 735px) {
+    html.css-mask-or-clip-path .section-touchbar-touchid .image-touchbar-hardware-background {
+        background-image: url(../images/overview/touchbar_gallery_hardware_small.jpg")
+    }
+    html.css-mask-or-clip-path .ie .image-touchbar-hardware-background {
+        background-image: url(../images/overview/touchbar_gallery_hardware_small.jpg")
+    }
+    html.css-mask-or-clip-path .edge .image-touchbar-hardware-background {
+        background-image: url(../images/overview/touchbar_gallery_hardware_small.jpg")
+    }
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    html.css-mask-or-clip-path .section-touchbar-touchid .image-touchbar-hardware-background {
+        background-image: url(../images/overview/touchbar_gallery_hardware_small_2x.jpg")
+    }
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    html.css-mask-or-clip-path .ie .image-touchbar-hardware-background {
+        background-image: url(../images/overview/touchbar_gallery_hardware_small_2x.jpg")
+    }
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    html.css-mask-or-clip-path .edge .image-touchbar-hardware-background {
+        background-image: url(../images/overview/touchbar_gallery_hardware_small_2x.jpg")
+    }
+}
+
+
+.section-touchbar-touchid .image-touchbar-hardware-background {
+    background-image: url(../images/overview/touchbar_gallery_hardware_fallback_large.png")
+}
+.ie .image-touchbar-hardware-background {
+    background-image: url(../images/overview/touchbar_gallery_hardware_fallback_large.png")
+}
+.edge .image-touchbar-hardware-background {
+    background-image: url(../images/overview/touchbar_gallery_hardware_fallback_large.png")
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-touchbar-touchid .image-touchbar-hardware-background {
+        background-image:url(../images/overview/touchbar_gallery_hardware_fallback_large_2x.png")
+}
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .ie .image-touchbar-hardware-background {
+        background-image:url(../images/overview/touchbar_gallery_hardware_fallback_large_2x.png")
+}
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .edge .image-touchbar-hardware-background {
+        background-image:url(../images/overview/touchbar_gallery_hardware_fallback_large_2x.png")
+}
+}
+@media only screen and (max-width: 1068px) {
+    .section-touchbar-touchid .image-touchbar-hardware-background {
+        background-image: url(../images/overview/touchbar_gallery_hardware_fallback_medium.png")
+}
+}
+@media only screen and (max-width: 1068px) {
+    .ie .image-touchbar-hardware-background {
+        background-image: url(../images/overview/touchbar_gallery_hardware_fallback_medium.png")
+}
+}
+@media only screen and (max-width: 1068px) {
+    .edge .image-touchbar-hardware-background {
+        background-image: url(../images/overview/touchbar_gallery_hardware_fallback_medium.png")
+}
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-touchbar-touchid .image-touchbar-hardware-background {
+        background-image:url(../images/overview/touchbar_gallery_hardware_fallback_medium_2x.png")
+}
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .ie .image-touchbar-hardware-background {
+        background-image:url(../images/overview/touchbar_gallery_hardware_fallback_medium_2x.png")
+}
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .edge .image-touchbar-hardware-background {
+        background-image:url(../images/overview/touchbar_gallery_hardware_fallback_medium_2x.png")
+}
+}
+@media only screen and (max-width: 735px) {
+    .section-touchbar-touchid .image-touchbar-hardware-background {
+        background-image: url(../images/overview/touchbar_gallery_hardware_fallback_small.png")
+}
+}
+@media only screen and (max-width: 735px) {
+    .ie .image-touchbar-hardware-background {
+        background-image: url(../images/overview/touchbar_gallery_hardware_fallback_small.png")
+}
+}
+@media only screen and (max-width: 735px) {
+    .edge .image-touchbar-hardware-background {
+        background-image: url(../images/overview/touchbar_gallery_hardware_fallback_small.png")
+}
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .section-touchbar-touchid .image-touchbar-hardware-background {
+        background-image:url(../images/overview/touchbar_gallery_hardware_fallback_small_2x.png")
+}
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .ie .image-touchbar-hardware-background {
+        background-image:url(../images/overview/touchbar_gallery_hardware_fallback_small_2x.png")
+}
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .edge .image-touchbar-hardware-background {
+        background-image:url(../images/overview/touchbar_gallery_hardware_fallback_small_2x.png")
+}
+}
+
+
+
+/*Coming Soon*/
+.violator-alt {
+    background: transparent;
+    border-color: #f46c0e;
+    color: #f46c0e
+}
+
+.violator {
+    background: transparent;
+    border: 1px solid;
+    border-radius: 4px;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+    white-space: nowrap;
+    padding: 2px 16px 0;
+    display: inline-block
+}
+html.oldie .violator {
+    display: inline;
+    zoom: 1;
+    vertical-align: middle
+}
+
+@-moz-document url-prefix() {
+    .violator {
+        line-height: 31px;
+        padding-top: 1px
+    }
+}
+
+.violator-compact {
+    font-size: 13px;
+    padding: 2px 11px 0;
+    line-height: 22px
+}
+
+@-moz-document url-prefix() {
+    .violator-compact {
+        line-height: 21px;
+        padding-top: 1px
+    }
+}
+
+.violator-alt.product-messaging {
+    margin: 25px 0 17px 0;
+    min-height: 38px
+}
+@media only screen and (max-width: 1068px) {
+    .violator-alt.product-messaging {
+        margin: 10px 0
+    }
+}
+@media only screen and (max-width: 735px) {
+    .violator-compact.product-messaging {
+        margin: 10px 0
+    }
+}
+
+
+
+
+
+/* fix for three line head text */
+#ac-globalfooter .buystrip-hero-secondary .ac-gf-buystrip-info-title {
+    margin-top: 0.3em;
+    min-height: 3.63em
+}
+@media only screen and (max-width: 1068px) {
+    #ac-globalfooter .buystrip-hero-secondary .ac-gf-buystrip-info-title {
+        min-height:initial
+    }
+}
+.section-keyboard-trackpad {
+    overflow: hidden;
+    padding: 326px 0 100px
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-keyboard-trackpad {
+        padding: 200px 0 90px
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .section-keyboard-trackpad {
+        padding: 80px 0 45px
+    }
+}
+
+
+
+/*Fixed IE 10/11*/
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .section-touchbar-touchid .nav-container .ac-tabnav-link.loc-ie-chinese {
+    line-height: 27px;
+}
+}
+*::-ms-backdrop, .section-touchbar-touchid .nav-container .ac-tabnav-link.loc-ie-chinese {
+    line-height: 27px;
+}
+/*Fixed IE 10/11 end*/
+
+
+.section-touchbar-touchid .image-touchbar-gallery-photos {
+    width: 842px;
+    height: 318px;
+    background-size: 842px 318px;
+    background-repeat: no-repeat;
+    background-image: url(../images/overview/touchbar_gallery_photos_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-touchbar-touchid .image-touchbar-gallery-photos {
+        background-image: url(../images/overview/touchbar_gallery_photos_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-touchbar-touchid .image-touchbar-gallery-photos {
+        width: 600px;
+        height: 228px;
+        background-size: 600px 228px;
+        background-repeat: no-repeat;
+        background-image: url(../images/overview/touchbar_gallery_photos_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-touchbar-touchid .image-touchbar-gallery-photos {
+        background-image: url(../images/overview/touchbar_gallery_photos_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .section-touchbar-touchid .image-touchbar-gallery-photos {
+        width: 306px;
+        height: 118px;
+        background-size: 306px 118px;
+        background-repeat: no-repeat;
+        background-image: url(../images/overview/touchbar_gallery_photos_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .section-touchbar-touchid .image-touchbar-gallery-photos {
+        background-image: url(../images/overview/touchbar_gallery_photos_small_2x.jpg")
+    }
+}
+
+.section-touchbar-touchid .image-touchbar-gallery-mail {
+    width: 842px;
+    height: 318px;
+    background-size: 842px 318px;
+    background-repeat: no-repeat;
+    background-image: url(../images/overview/touchbar_gallery_mail_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-touchbar-touchid .image-touchbar-gallery-mail {
+        background-image: url(../images/overview/touchbar_gallery_mail_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-touchbar-touchid .image-touchbar-gallery-mail {
+        width: 600px;
+        height: 228px;
+        background-size: 600px 228px;
+        background-repeat: no-repeat;
+        background-image: url(../images/overview/touchbar_gallery_mail_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-touchbar-touchid .image-touchbar-gallery-mail {
+        background-image: url(../images/overview/touchbar_gallery_mail_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .section-touchbar-touchid .image-touchbar-gallery-mail {
+        width: 306px;
+        height: 118px;
+        background-size: 306px 118px;
+        background-repeat: no-repeat;
+        background-image: url(../images/overview/touchbar_gallery_mail_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .section-touchbar-touchid .image-touchbar-gallery-mail {
+        background-image: url(../images/overview/touchbar_gallery_mail_small_2x.jpg")
+    }
+}
+
+.section-touchbar-touchid .image-touchbar-gallery-safari {
+    width: 842px;
+    height: 318px;
+    background-size: 842px 318px;
+    background-repeat: no-repeat;
+    background-image: url(../images/overview/touchbar_gallery_safari_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-touchbar-touchid .image-touchbar-gallery-safari {
+        background-image: url(../images/overview/touchbar_gallery_safari_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-touchbar-touchid .image-touchbar-gallery-safari {
+        width: 600px;
+        height: 228px;
+        background-size: 600px 228px;
+        background-repeat: no-repeat;
+        background-image: url(../images/overview/touchbar_gallery_safari_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-touchbar-touchid .image-touchbar-gallery-safari {
+        background-image: url(../images/overview/touchbar_gallery_safari_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .section-touchbar-touchid .image-touchbar-gallery-safari {
+        width: 306px;
+        height: 118px;
+        background-size: 306px 118px;
+        background-repeat: no-repeat;
+        background-image: url(../images/overview/touchbar_gallery_safari_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .section-touchbar-touchid .image-touchbar-gallery-safari {
+        background-image: url(../images/overview/touchbar_gallery_safari_small_2x.jpg")
+    }
+}
+
+.section-touchbar-touchid .image-touchbar-gallery-keynote {
+    width: 842px;
+    height: 318px;
+    background-size: 842px 318px;
+    background-repeat: no-repeat;
+    background-image: url(../images/overview/touchbar_gallery_keynote_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-touchbar-touchid .image-touchbar-gallery-keynote {
+        background-image: url(../images/overview/touchbar_gallery_keynote_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-touchbar-touchid .image-touchbar-gallery-keynote {
+        width: 600px;
+        height: 228px;
+        background-size: 600px 228px;
+        background-repeat: no-repeat;
+        background-image: url(../images/overview/touchbar_gallery_keynote_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-touchbar-touchid .image-touchbar-gallery-keynote {
+        background-image: url(../images/overview/touchbar_gallery_keynote_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .section-touchbar-touchid .image-touchbar-gallery-keynote {
+        width: 306px;
+        height: 118px;
+        background-size: 306px 118px;
+        background-repeat: no-repeat;
+        background-image: url(../images/overview/touchbar_gallery_keynote_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .section-touchbar-touchid .image-touchbar-gallery-keynote {
+        background-image: url(../images/overview/touchbar_gallery_keynote_small_2x.jpg")
+    }
+}
+
+.section-touchbar-touchid .image-touchbar-gallery-customization {
+    width: 842px;
+    height: 318px;
+    background-size: 842px 318px;
+    background-repeat: no-repeat;
+    background-image: url(../images/overview/touchbar_gallery_custom_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-touchbar-touchid .image-touchbar-gallery-customization {
+        background-image: url(../images/overview/touchbar_gallery_custom_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-touchbar-touchid .image-touchbar-gallery-customization {
+        width: 600px;
+        height: 228px;
+        background-size: 600px 228px;
+        background-repeat: no-repeat;
+        background-image: url(../images/overview/touchbar_gallery_custom_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-touchbar-touchid .image-touchbar-gallery-customization {
+        background-image: url(../images/overview/touchbar_gallery_custom_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .section-touchbar-touchid .image-touchbar-gallery-customization {
+        width: 306px;
+        height: 118px;
+        background-size: 306px 118px;
+        background-repeat: no-repeat;
+        background-image: url(../images/overview/touchbar_gallery_custom_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .section-touchbar-touchid .image-touchbar-gallery-customization {
+        background-image: url(../images/overview/touchbar_gallery_custom_small_2x.jpg")
+    }
+}
+
+.expand-touchbar .image-touchbar-facetime {
+    width: 825px;
+    height: 33px;
+    background-size: 825px 33px;
+    background-image: url(../images/overview/touchbar_access_facetime_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .expand-touchbar .image-touchbar-facetime {
+        background-image: url(../images/overview/touchbar_access_facetime_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .expand-touchbar .image-touchbar-facetime {
+        width: 697px;
+        height: 28px;
+        background-size: 697px 28px;
+        background-image: url(../images/overview/touchbar_access_facetime_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .expand-touchbar .image-touchbar-facetime {
+        background-image: url(../images/overview/touchbar_access_facetime_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .expand-touchbar .image-touchbar-facetime {
+        width: 825px;
+        height: 33px;
+        background-size: 825px 33px;
+        background-image: url(../images/overview/touchbar_access_facetime_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .expand-touchbar .image-touchbar-facetime {
+        background-image: url(../images/overview/touchbar_access_facetime_small_2x.jpg")
+    }
+}
+
+.expand-touchbar .image-touchbar-emoji {
+    width: 825px;
+    height: 33px;
+    background-size: 825px 33px;
+    background-image: url(../images/overview/touchbar_access_emoji_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .expand-touchbar .image-touchbar-emoji {
+        background-image: url(../images/overview/touchbar_access_emoji_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .expand-touchbar .image-touchbar-emoji {
+        width: 697px;
+        height: 28px;
+        background-size: 697px 28px;
+        background-image: url(../images/overview/touchbar_access_emoji_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .expand-touchbar .image-touchbar-emoji {
+        background-image: url(../images/overview/touchbar_access_emoji_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .expand-touchbar .image-touchbar-emoji {
+        width: 825px;
+        height: 33px;
+        background-size: 825px 33px;
+        background-image: url(../images/overview/touchbar_access_emoji_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .expand-touchbar .image-touchbar-emoji {
+        background-image: url(../images/overview/touchbar_access_emoji_small_2x.jpg")
+    }
+}
+.section-keyboard-trackpad .image-keyboard-trackpad-hero {
+    width: 1536px;
+    height: 997px;
+    background-size: 1536px 997px;
+    background-image: url(../images/overview/keyboard_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-keyboard-trackpad .image-keyboard-trackpad-hero {
+        background-image: url(../images/overview/keyboard_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-keyboard-trackpad .image-keyboard-trackpad-hero {
+        width: 969px;
+        height: 725px;
+        background-size: 969px 725px;
+        background-image: url(../images/overview/keyboard_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-keyboard-trackpad .image-keyboard-trackpad-hero {
+        background-image: url(../images/overview/keyboard_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .section-keyboard-trackpad .image-keyboard-trackpad-hero {
+        width: 512px;
+        height: 383px;
+        background-size: 512px 383px;
+        background-image: url(../images/overview/keyboard_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .section-keyboard-trackpad .image-keyboard-trackpad-hero {
+        background-image: url(../images/overview/keyboard_small_2x.jpg")
+    }
+}
+
+
+/**/
+.subsection-hero-hero .image-models-screen {
+    
+    background-image: url(../images/overview/hero/2_up_screen_large.png");
+   
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .subsection-hero-hero .image-models-screen {
+        background-image: url(../images/overview/hero/2_up_screen_large_2x.png")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .subsection-hero-hero .image-models-screen {
+       
+        background-image: url(../images/overview/hero/2_up_screen_medium.png")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .subsection-hero-hero .image-models-screen {
+        background-image: url(../images/overview/hero/2_up_screen_medium_2x.png")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .subsection-hero-hero .image-models-screen {
+       
+        background-image: url(../images/overview/hero/2_up_screen_small.png")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .subsection-hero-hero .image-models-screen {
+        background-image: url(../images/overview/hero/2_up_screen_small_2x.png")
+    }
+}
+.subsection-hero-hero .fallback-image {
+   
+    background-image: url(../images/overview/hero/hero_fallback_large.jpg");
+    
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .subsection-hero-hero .fallback-image {
+        background-image: url(../images/overview/hero/hero_fallback_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .subsection-hero-hero .fallback-image {
+       
+        background-image: url(../images/overview/hero/hero_fallback_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .subsection-hero-hero .fallback-image {
+        background-image: url(../images/overview/hero/hero_fallback_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .subsection-hero-hero .fallback-image {
+        
+        background-image: url(../images/overview/hero/hero_fallback_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .subsection-hero-hero .fallback-image {
+        background-image: url(../images/overview/hero/hero_fallback_small_2x.jpg")
+    }
+}
+
+
+.section-touch-id .image-touch-id {
+   
+    background-image: url(../images/overview/touch-bar/touch_id_large.png")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-touch-id .image-touch-id {
+        background-image: url(../images/overview/touch-bar/touch_id_large_2x.png")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-touch-id .image-touch-id {
+       
+        background-image: url(../images/overview/touch-bar/touch_id_medium.png")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-touch-id .image-touch-id {
+        background-image: url(../images/overview/touch-bar/touch_id_medium_2x.png")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .section-touch-id .image-touch-id {
+       
+        background-image: url(../images/overview/touch-bar/touch_id_small.png")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .section-touch-id .image-touch-id {
+        background-image: url(../images/overview/touch-bar/touch_id_small_2x.png")
+    }
+}
+
+.subsection-keyboard-hero .section-content .image-keyboard-hardware {
+   
+    background-image: url(../images/overview/keyboard/keys_trackpad_hw_large.png");
+    
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .subsection-keyboard-hero .section-content .image-keyboard-hardware {
+        background-image: url(../images/overview/keyboard/keys_trackpad_hw_large_2x.png")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .subsection-keyboard-hero .section-content .image-keyboard-hardware {
+        
+        background-image: url(../images/overview/keyboard/keys_trackpad_hw_medium.png")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .subsection-keyboard-hero .section-content .image-keyboard-hardware {
+        background-image: url(../images/overview/keyboard/keys_trackpad_hw_medium_2x.png")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .subsection-keyboard-hero .section-content .image-keyboard-hardware {
+       
+        background-image: url(../images/overview/keyboard/keys_trackpad_hw_small.png")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .subsection-keyboard-hero .section-content .image-keyboard-hardware {
+        background-image: url(../images/overview/keyboard/keys_trackpad_hw_small_2x.png")
+    }
+}
+
+.image-performance-gallery-gaming {
+  
+    background-image: url(../images/overview/performance/perf_gallery_screen_gaming_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .image-performance-gallery-gaming {
+        background-image: url(../images/overview/performance/perf_gallery_screen_gaming_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .image-performance-gallery-gaming {
+       
+        background-image: url(../images/overview/performance/perf_gallery_screen_gaming_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .image-performance-gallery-gaming {
+        background-image: url(../images/overview/performance/perf_gallery_screen_gaming_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .image-performance-gallery-gaming {
+       
+        background-image: url(../images/overview/performance/perf_gallery_screen_gaming_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .image-performance-gallery-gaming {
+        background-image: url(../images/overview/performance/perf_gallery_screen_gaming_small_2x.jpg")
+    }
+}
+
+.section-touch-bar .section-content .screen-touch-image {
+   
+    background-image: url(../images/overview/touch-bar/gallery/screen_touch_hw_large.png");
+   
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-touch-bar .section-content .screen-touch-image {
+        background-image: url(../images/overview/touch-bar/gallery/screen_touch_hw_large_2x.png")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-touch-bar .section-content .screen-touch-image {
+      
+        background-image: url(../images/overview/touch-bar/gallery/screen_touch_hw_medium.png")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-touch-bar .section-content .screen-touch-image {
+        background-image: url(../images/overview/touch-bar/gallery/screen_touch_hw_medium_2x.png")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .section-touch-bar .section-content .screen-touch-image {
+        
+        background-image: url(../images/overview/touch-bar/gallery/screen_touch_hw_small.png")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .section-touch-bar .section-content .screen-touch-image {
+        background-image: url(../images/overview/touch-bar/gallery/screen_touch_hw_small_2x.png")
+    }
+}
+
+.section-macos-callout .image-tile-macos {
+   
+    background-image: url(../images/shared/tile_macos_large.png");
+   
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-macos-callout .image-tile-macos {
+        background-image: url(../images/shared/tile_macos_large_2x.png")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-macos-callout .image-tile-macos {
+       
+        background-image: url(../images/shared/tile_macos_medium.png")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-macos-callout .image-tile-macos {
+        background-image: url(../images/shared/tile_macos_medium_2x.png")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .section-macos-callout .image-tile-macos {
+       
+        background-image: url(../images/shared/tile_macos_small.png")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .section-macos-callout .image-tile-macos {
+        background-image: url(../images/shared/tile_macos_small_2x.png")
+    }
+}
+/*startframe*/
+
+.video-startframe-customize {
+    background-repeat: no-repeat;
+    background-image: url(../images/overview/touch-bar/gallery/startframes/customization_startframe_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .video-startframe-customize {
+        background-image: url(../images/overview/touch-bar/gallery/startframes/customization_startframe_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .video-startframe-customize {
+        background-repeat: no-repeat;
+        background-image: url(../images/overview/touch-bar/gallery/startframes/customization_startframe_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .video-startframe-customize {
+        background-image: url(../images/overview/touch-bar/gallery/startframes/customization_startframe_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .video-startframe-customize {
+        background-repeat: no-repeat;
+        background-image: url(../images/overview/touch-bar/gallery/startframes/customization_startframe_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .video-startframe-customize {
+        background-image: url(../images/overview/touch-bar/gallery/startframes/customization_startframe_small_2x.jpg")
+    }
+}
+.video-startframe-tap {
+    background-repeat: no-repeat;
+    background-image: url(../images/overview/touch-bar/gallery/startframes/tap_startframe_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .video-startframe-tap {
+        background-image: url(../images/overview/touch-bar/gallery/startframes/tap_startframe_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .video-startframe-tap {
+        background-repeat: no-repeat;
+        background-image: url(../images/overview/touch-bar/gallery/startframes/tap_startframe_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .video-startframe-tap {
+        background-image: url(../images/overview/touch-bar/gallery/startframes/tap_startframe_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .video-startframe-tap {
+        background-repeat: no-repeat;
+        background-image: url(../images/overview/touch-bar/gallery/startframes/tap_startframe_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .video-startframe-tap {
+        background-image: url(../images/overview/touch-bar/gallery/startframes/tap_startframe_small_2x.jpg")
+    }
+}
+
+.video-startframe-touch-and-hold {
+    background-repeat: no-repeat;
+    background-image: url(../images/overview/touch-bar/gallery/startframes/hold_startframe_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .video-startframe-touch-and-hold {
+        background-image: url(../images/overview/touch-bar/gallery/startframes/hold_startframe_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .video-startframe-touch-and-hold {
+        background-repeat: no-repeat;
+        background-image: url(../images/overview/touch-bar/gallery/startframes/hold_startframe_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .video-startframe-touch-and-hold {
+        background-image: url(../images/overview/touch-bar/gallery/startframes/hold_startframe_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .video-startframe-touch-and-hold {
+        background-repeat: no-repeat;
+        background-image: url(../images/overview/touch-bar/gallery/startframes/hold_startframe_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .video-startframe-touch-and-hold {
+        background-image: url(../images/overview/touch-bar/gallery/startframes/hold_startframe_small_2x.jpg")
+    }
+}
+
+
+.video-startframe-flick {
+    background-repeat: no-repeat;
+    background-image: url(../images/overview/touch-bar/gallery/startframes/flick_startframe_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .video-startframe-flick {
+        background-image: url(../images/overview/touch-bar/gallery/startframes/flick_startframe_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .video-startframe-flick {
+        background-repeat: no-repeat;
+        background-image: url(../images/overview/touch-bar/gallery/startframes/flick_startframe_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .video-startframe-flick {
+        background-image: url(../images/overview/touch-bar/gallery/startframes/flick_startframe_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .video-startframe-flick {
+        background-repeat: no-repeat;
+        background-image: url(../images/overview/touch-bar/gallery/startframes/flick_startframe_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .video-startframe-flick {
+        background-image: url(../images/overview/touch-bar/gallery/startframes/flick_startframe_small_2x.jpg")
+    }
+}
+
+.video-startframe-slide {
+    background-repeat: no-repeat;
+    background-image: url(../images/overview/touch-bar/gallery/startframes/slide_startframe_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .video-startframe-slide {
+        background-image: url(../images/overview/touch-bar/gallery/startframes/slide_startframe_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .video-startframe-slide {
+        background-repeat: no-repeat;
+        background-image: url(../images/overview/touch-bar/gallery/startframes/slide_startframe_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .video-startframe-slide {
+        background-image: url(../images/overview/touch-bar/gallery/startframes/slide_startframe_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .video-startframe-slide {
+        background-repeat: no-repeat;
+        background-image: url(../images/overview/touch-bar/gallery/startframes/slide_startframe_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .video-startframe-slide {
+        background-image: url(../images/overview/touch-bar/gallery/startframes/slide_startframe_small_2x.jpg")
+    }
+}
+.video-startframe-mail {
+    background-repeat: no-repeat;
+    background-image: url(../images/overview/touch-bar/gallery/startframes/mail_startframe_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .video-startframe-mail {
+        background-image: url(../images/overview/touch-bar/gallery/startframes/mail_startframe_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .video-startframe-mail {
+        background-repeat: no-repeat;
+        background-image: url(../images/overview/touch-bar/gallery/startframes/mail_startframe_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .video-startframe-mail {
+        background-image: url(../images/overview/touch-bar/gallery/startframes/mail_startframe_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .video-startframe-mail {
+        background-repeat: no-repeat;
+        background-image: url(../images/overview/touch-bar/gallery/startframes/mail_startframe_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .video-startframe-mail {
+        background-image: url(../images/overview/touch-bar/gallery/startframes/mail_startframe_small_2x.jpg")
+    }
+}
+
+.video-startframe-photos {
+    background-repeat: no-repeat;
+    background-image: url(../images/overview/touch-bar/gallery/startframes/photos_startframe_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .video-startframe-photos {
+        background-image: url(../images/overview/touch-bar/gallery/startframes/photos_startframe_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .video-startframe-photos {
+        background-repeat: no-repeat;
+        background-image: url(../images/overview/touch-bar/gallery/startframes/photos_startframe_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .video-startframe-photos {
+        background-image: url(../images/overview/touch-bar/gallery/startframes/photos_startframe_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .video-startframe-photos {
+        background-repeat: no-repeat;
+        background-image: url(../images/overview/touch-bar/gallery/startframes/photos_startframe_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .video-startframe-photos {
+        background-image: url(../images/overview/touch-bar/gallery/startframes/photos_startframe_small_2x.jpg")
+    }
+}
+
+
+
+
+
+
+
+/**/
+
+.graph-gallery .badge-column .badge .badge-content {
+    margin-top: 33px;
+    
+}
+.graph-gallery .badge-column .badge .badge-content.badge-top {
+    margin-top: 53px;
+    
+}
+
+@media only screen and (max-width: 1068px) {
+    .graph-gallery .badge-column .badge .badge-content {
+        margin-top: 50px
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .graph-gallery .badge-column .badge .badge-content.badge-m-top {
+        margin-top: 50px
+    }
+}
+@media only screen and (max-width: 1068px) {
+    .graph-gallery .badge-column .badge .badge-content.badge-top-medium {
+        margin-top: 30px
+    }
+}
+@media only screen and (max-width: 1068px) {
+    .graph-gallery .badge-column .badge .badge-content.badge-top.badge-top-t {
+    	margin-top: 70px; 
+	}
+}
+
+@media only screen and (max-width: 735px) {
+    .graph-gallery .badge-column .badge .badge-content {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .graph-gallery .badge-column .badge .badge-content.badge-top {
+    	margin-top: 10px;
+	}
+    .graph-gallery .badge-column .badge .badge-content.badge-m-top {
+        margin-top: 10px
+    }
+    .graph-gallery .badge-column .badge .badge-content.badge-top-medium {
+        margin-top: 10px
+    }
+    .graph-gallery .badge-column .badge .badge-content.badge-top.badge-top-t {
+    	margin-top: 10px; 
+	}
+}
+@media only screen and (max-width: 735px) {
+    .graph-gallery #bar-graph-13-inch, .graph-gallery #bar-graph-15-inch {
+        margin-bottom: -20px;
+    }
+}
+
+
+/*left*/
+@media only screen and (max-width: 735px) {
+	.graph-gallery .badge-column .badge .badge-caption {
+		width: auto;
+		margin-left:0px;
+    }
+	.graph-gallery .badge-column .badge .badge-value{
+		margin-left: 10px;
+	}
+}
+
+/**/
+@media only screen and (max-width: 320px) {
+    span.hide-for-xsmall{
+       display: none;
+    }
+}
+
+.subsection-performance-graphics .image-graphics-back-glow {
+    height: 850px;
+    background-size: 1836px 850px;
+}
+@media only screen and (max-width: 1068px) {
+    .subsection-performance-graphics .image-graphics-back-glow {
+        height: 1068px;
+        background-size: 1068px 1068px;
+    }
+}
+@media only screen and (max-width: 735px) {
+    .subsection-performance-graphics .image-graphics-back-glow {
+        height: 256px;
+        background-size: 529px 256px;
+    }
+}
+
+/*red*/
+.image-performance-gallery-photography {
+    background-image: url(../images/overview/performance/perf_gallery_screen_photo_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .image-performance-gallery-photography {
+        background-image: url(../images/overview/performance/perf_gallery_screen_photo_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .image-performance-gallery-photography {
+        background-image: url(../images/overview/performance/perf_gallery_screen_photo_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .image-performance-gallery-photography {
+        background-image: url(../images/overview/performance/perf_gallery_screen_photo_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .image-performance-gallery-photography {
+        background-image: url(../images/overview/performance/perf_gallery_screen_photo_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .image-performance-gallery-photography {
+        background-image: url(../images/overview/performance/perf_gallery_screen_photo_small_2x.jpg")
+    }
+}
