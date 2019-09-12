@@ -1,0 +1,177 @@
+.Mac Proad{
+  font-size: 20px;
+  background: #444;
+  height: 40px;
+  width:100% ;
+  position: relative;
+}
+.first_li{
+  display: inline-block;
+  width: 100px;
+}
+.old{
+  color: white;
+}
+.xin{
+  color: orange;
+}
+.pick{
+  text-decoration: none;}
+.text{
+  display: inline-block;
+}
+.title{
+  list-style-type: none;
+  display: inline;
+}
+.titlesize{
+  width:1900px ;
+  display: inline;
+}
+.name{
+  font-size: 10px;
+  height: 5px;
+}
+.div style{
+  text-align: center;
+  background: rgba(45,45,45,0.98);
+  width:100%;
+  height: 45px;
+  text-align: center;
+}
+.div1{
+
+}
+.span style{
+  font-size: 50px; text-align: center;
+}
+.title1_style1{
+  cursor: default;
+  margin: 0 -10px;
+  width: auto;
+  height: 44px;
+  line-height: 44px;
+  display: inline;
+  list-style-type: none;
+}
+
+
+.title1_style1 li{
+  list-style-type: none;
+  display: inline;
+  text-align: left;
+  text-decoration: none;
+  width:60px;
+  margin-left: 40px;
+  font-size: 17px;
+  text-align: center;
+  color: white;
+}
+.title1_style1_li:hover{
+  color: #FFFFFF;
+}
+
+.MacPro_img1{
+  display: inline-block;
+  height:400px ;
+  width:400px;
+}
+.MacPro_img2{
+  display: inline-block;
+  height:400px;
+  width:400px;
+}
+.MacPro_img3{
+  display: inline-block;
+  height:400px ;
+  width:400px;
+}
+.MacPro_img4{
+  display: inline-block;
+  height:600px ;
+  width:700px;
+}
+.MacPro_img5{
+  display: inline-block;
+  height:600px ;
+  width:700px;
+}
+.MacPro_img6{
+  display: inline-block;
+  height:600px ;
+  width:300px;
+}
+.MacPro_img7{
+  display: inline-block;
+  height:400px ;
+  width:400px;
+}
+.MacPro_img8{
+  display: inline-block;
+  height:400px ;
+  width:400px;
+}
+.text{
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+
+.text1{
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+  color: black;
+}
+
+.list{
+  display: inline-block;
+  width:238px ;
+  text-align: left;
+  background-color: #F2F2F2;
+}
+
+.ul_style1{
+  list-style-type:none ;
+  display: inline;
+}
+
+.ul_text1{
+  text-align: left;
+  text-decoration: none;
+  color: gray;
+  font-size: 12px;
+}
+
+.ul_text1:hover{
+  color: blue;
+}
+
+.ul_tit1{
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+
+.ul_style2{
+  background-color: #F2F2F2;
+  text-align: center;
+}
+.ul_style2 ol{
+  margin:0 auto;
+  display: table;
+  font-size: 10px;
+  color: gray;
+  text-align: left;
+
+}
+
+.none{
+  color: whitesmoke;
+}
+.text{
+  background-color: #F2F2F2;
+  text-align: center;"
+}
