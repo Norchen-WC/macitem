@@ -1,0 +1,176 @@
+marquee{
+	    font-size: 20px;
+	    background: dimgray;
+	    height: 30px;
+	    width:1538px ;
+	    bottom: 10px;
+	    right: 10px;
+	    position:relative;
+}
+body{
+	width: 1538px;
+}
+.title{
+	list-style-type: none;
+	display: inline-block;
+	background: black;
+	height: 25px;
+	text-align: center;
+    padding-bottom: 10px;
+}
+.title li{
+	display: inline-block;	
+	width:100px;
+	margin-left: 40px;
+	font-size: 15px;
+	text-align: center;
+	color: white;
+	background: black;
+}
+.img1{
+	height:30px;
+	width: 30px;
+	top: 5px;
+	position:relative;
+}
+.first{
+	 height: 60px;
+	width: 1538px;
+	background: black;	
+	bottom: 15px;
+	right: 10px;
+	position:relative;
+}
+.down1{
+	text-decoration: none;
+	color: white;
+}
+.down1:hover{
+	color: grey;
+}
+.img1:hover{
+	color: grey;
+}
+.bigs{
+	text-decoration: none;
+    top:15px;
+	position:relative;
+	font-size: 25px;
+	color: white;
+}
+.smalls{
+    top:15px;
+	position:relative;
+	font-size: 20px;
+	color: gray;
+}
+.second{
+		 height: 60px;
+		 background-image: url(../images/color.png);
+		 bottom: 15px;
+		 right: 10px;
+		 position:relative;
+		 text-indent:120px;
+}
+.bigs:hover{
+	color: white;
+}
+#img2{
+	left: 0px;
+    top:0px;
+	width: 1538px;
+	position:absolute;
+	z-index:-1;
+	filter:alpha(opacity=0);
+}
+.third{
+	bottom: 20px;
+	height: 870px;
+	right:10px;
+	width: 1538px;
+	position:relative;
+	background-image: url(../images/big1.jpg);
+	margin-bottm:870px;
+	z-index:1;
+		}
+		.te1{
+           left:400px;
+		   top: 140px;
+			text-align: center;
+			color: white;
+			font-size: 90px;
+			font-weight: bold;
+			position:relative;
+			z-index:0;
+		}
+		.te2{
+           left:340px;
+		   top: 100px;
+			text-align: center;
+			color: white;
+			font-size: 110px;
+			font-weight: bold;
+			position:relative;
+			z-index:-2;
+		}
+		.last{
+			display: inline-block;
+			width:300px ;
+			text-align: center;
+			background: whitesmoke;
+		}
+		.pick_1{
+			text-align: center;
+			text-decoration: none;
+			color: gray;
+			font-size: 12px;
+		}
+		.pick_1:hover{
+						color: blue;
+					}
+		.te8{
+			font-size: 10px;
+			font-weight: bold;
+			text-align: center;	
+			color: black;
+		}
+		.none{
+			color: whitesmoke;
+		}
+		.te7{
+			display: inline-block;
+			font-size: 10px;
+			text-align: center;	
+			width:1538px ;
+			color: gray;
+		}
+		.see{
+			width: 1538px;
+			background: whitesmoke;
+			text-align: center;
+		}
+		.p1{
+			font-size: 30px;
+			font-weight: bold;
+		}
+		.j1{
+			width: 1538px;
+		}
+		.second2{
+			background: whitesmoke;
+			text-align: center;
+		}
+		.fifth{
+		   width:1538px;	
+		}
+		.fifth ul{
+			list-style-type: none;
+			display: inline-block;
+		}
+		.fifth ul li{
+			display: inline-block;
+		}
+		.p2{
+			font-size: 20px;
+			color: gray;
+		}
