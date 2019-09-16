@@ -1,0 +1,126 @@
+.mac主页广告{
+    font-size: 20px;
+    background: dimgray;
+    height: 30px;
+    width:1538px ;
+    bottom: 10px;
+    right: 10px;
+    position:relative;
+}
+.zhuye{
+    width:1538px ;
+    display: inline;
+}
+.t1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+.t2{
+    text-align: center;
+    font-size: 20px;
+}
+.bioage1{
+    margin-left: 100px;
+    widows:18px;
+
+}
+.bk{
+    padding: 50px 50px;
+    background:white;
+}
+.head{
+    padding: 10px 0px;
+    font-size:15px;
+}
+.xx{
+    font-size: 15px;
+}
+.juzhong{
+    text-align: center;
+;
+}
+.bbg{
+    background: white;
+}
+.b2{
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 30px 300px
+;
+}
+.big{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.mid{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+.zuo{
+    text-align: left;
+    padding:  0px  0px  0px  80px;
+;
+}
+.zuo1{
+    text-align: left;
+    padding:  0px  0px   0px 90px;
+}
+.zuo2{
+    text-align: left
+;
+    padding: 0px 0px 0px  80px
+}
+.bk1{
+    background:ghostwhite;
+}
+.b3{
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+.bk2{
+    background: whitesmoke;
+}
+.wei{
+    font-size: 8px;
+    color: lightgray;
+}
+
+.zuo3{
+    text-align: left;
+    padding: 0px 0px 0px 00px;
+}
+.second2{
+    background: whitesmoke;
+    text-align: center;
+}
+.last{
+    display: inline-block;
+    width:300px ;
+    text-align: center;
+    background: whitesmoke;
+}
+.te8{
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+.pick_1{
+    text-align: center;
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+}
+.none{
+    color: whitesmoke;
+}
+.te7{
+    display: inline-block;
+    font-size: 10px;
+    text-align: center;
+    width:1538px ;
+    color: gray;
+}
