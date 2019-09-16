@@ -16,6 +16,8 @@ var prodisplayxdrRouter = require('./routes/prodisplayxdr')
 var MachxhRouter = require('./routes/Machxh')
 var macjxRouter = require('./routes/macjx')
 var macpjRouter = require('./routes/macpj')
+var xsyhRouter = require('./routes/xsyh')
+
 var app = express();
 
 // view engine setup
@@ -40,6 +42,8 @@ app.use('/prodisplayxdr',prodisplayxdrRouter)
 app.use('/Machxh',MachxhRouter)
 app.use('/macjx',macjxRouter)
 app.use('/macpj',macpjRouter)
+app.use('/xsyh',xsyhRouter)
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
