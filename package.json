@@ -10,7 +10,10 @@
     "debug": "~2.6.9",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
+    "module": "^1.2.5",
     "morgan": "~1.9.1",
-    "pug": "2.0.0-beta11"
+    "mysql": "^2.16.1",
+    "pug": "2.0.0-beta11",
+    "setting": "0.1.0"
   }
 }

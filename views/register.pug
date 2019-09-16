@@ -4,11 +4,11 @@ head
     script(src='javascripts/register.js')
     link(href= 'stylesheets/do.css' type="text/css" rel="stylesheet")
 form(action='http://localhost:3000/macmain', method='get', onsubmit='return toValid()')
-    input#user(type='text', placeholder='请输入用户名', required='')
+    input#user(type='text', name='user',placeholder='请输入用户名', required='')
     span#user_err
     br
     br
-    input#pass(type='password', placeholder='请输入密码', required='')
+    input#pass(type='password',name='pass', placeholder='请输入密码', required='')
     span#pass_err
     br
     br
