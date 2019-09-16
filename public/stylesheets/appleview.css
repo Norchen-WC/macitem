@@ -21220,6 +21220,62 @@ html.ie8.ac-gn-segmentbar-visible .adv-wrapper,html.oldie.ac-gn-segmentbar-visib
     text-indent:50px;
     padding-left:50px;
 }
+.nav{
+    background-color: black;
+    height: 44px;
+    text-align: center;
+}
+.nav ul{
+    margin: 0 auto;
+    padding: 0;
+    align-items: center;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav li{
+    list-style-type: none;
+    display:inline-block;
+    color: #fff;
+    font-size:14px;
+}
+.nav li:hover{
+    cursor: pointer;
+    opacity: 0.65;
+}
+.nav2{
+    width:76%;
+    height: 52px;
+    margin:0 auto;
+    border-bottom: 1px solid gray;
+}
+.nav2 .right{
+    float:right;
+    width:246px;
+    height:41px;
+}
+.right li{
+    display: inline-block;
+    color:#f5f5f7;
+    font-size: 12px;
+    margin-top: 18px;
+    margin-left: 13px;
+}
+.right li a:hover{
+    cursor: pointer;
+    color:#2997ff;
+}
+.left-s{
+    height:40px;
+    width:177px;
+    float:left;
+    margin-left: 12px;
+}
+.right-s{
+    float:right;
+    margin-top: 12.5px;
+}
 body{
     background: black;
+    color:white;
 }
