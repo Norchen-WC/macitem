@@ -13,6 +13,7 @@ var macproRouter = require('./routes/macpro')
 var imacRouter = require('./routes/imac')
 var imacproRouter = require('./routes/imacpro')
 var prodisplayxdrRouter = require('./routes/prodisplayxdr')
+var MachxhRouter = require('./routes/Machxh')
 var app = express();
 
 // view engine setup
@@ -34,6 +35,7 @@ app.use('/macpro',macproRouter)
 app.use('/imac',imacRouter)
 app.use('/imacpro',imacproRouter)
 app.use('/prodisplayxdr',prodisplayxdrRouter)
+app.use('/Machxh',MachxhRouter)
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
