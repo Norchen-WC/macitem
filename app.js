@@ -7,6 +7,7 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var registerRouter = require('./routes/register')
+var loginRouter = require('./routes/login')
 var macmainRouter = require('./routes/macmain')
 var macairRouter = require('./routes/macair')
 var macproRouter = require('./routes/macpro')
@@ -33,6 +34,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/register',registerRouter)
+app.use('/login',loginRouter)
 app.use('/macmain',macmainRouter)
 app.use('/macair',macairRouter)
 app.use('/macpro',macproRouter)
@@ -43,6 +45,7 @@ app.use('/Machxh',MachxhRouter)
 app.use('/macjx',macjxRouter)
 app.use('/macpj',macpjRouter)
 app.use('/xsyh',xsyhRouter)
+
 
 
 // catch 404 and forward to error handler

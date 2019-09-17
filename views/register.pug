@@ -2,20 +2,26 @@ head
     meta(charset='utf-8')
     title &#x6CE8;&#x518C;
     script(src='javascripts/register.js')
-    link(href= 'stylesheets/do.css' type="text/css" rel="stylesheet")
-form(action='http://localhost:3000/macmain', method='get', onsubmit='return toValid()')
-    input#user(type='text', name='user',placeholder='请输入用户名', required='')
-    span#user_err
-    br
-    br
-    input#pass(type='password',name='pass', placeholder='请输入密码', required='')
-    span#pass_err
-    br
-    br
-    input#pass_two(type='password', placeholder='请再次输入密码', required='')
-    span#pass_two_err
-    br
-    br
-    input(type='submit')
-body
-html
+    link(href='stylesheets/do.css', rel='stylesheet', type='text/css')
+img(src='images/applece.jpg')
+#first
+    form(action='http://localhost:3000/login', method='get', onsubmit='return toValid()')
+        | &#x767B;&#x5F55;&#x5E10;&#x53F7;&#xFF1A;
+        input#user(name='user ', placeholder='请输入用户名', required='')
+        span#user_err
+        br
+        br
+        | &#x9;&#x9;&#x9;&#x767B;&#x5F55;&#x5BC6;&#x7801;&#xFF1A;
+        input#pass(name='pass', type='password', placeholder='请输入密码', required='')
+        span#pass_err
+        br
+        br
+        | &#x9;&#x9;&#x9;&#x518D;&#x6B21;&#x8F93;&#x5165;&#xFF1A;
+        input#pass_two(type='password', placeholder='请再次输入密码', required='')
+        span#pass_two_err
+        br
+        br
+        input.ce(type='submit', value='注册')
+br
+div
+    p &#x672C;&#x4EA7;&#x54C1;&#x6700;&#x7EC8;&#x89E3;&#x91CA;&#x6743;&#x5F52;&#x82F9;&#x679C;&#xFF08;&#x4E2D;&#x56FD;&#xFF09;&#x516C;&#x53F8;&#x6240;&#x6709;@apple.cn.com

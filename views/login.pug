@@ -1,0 +1,24 @@
+head
+    meta(charset='utf-8')
+    title &#x767B;&#x5F55;
+    script(src='javascripts/login.js')
+    link(href='stylesheets/did.css', rel='stylesheet', type='text/css')
+img(src='images/applelogin.png')
+#first
+    form(action='http://localhost:3000/macmain', method='get', onsubmit='return toValid()')
+        | &#x5E10;&#x53F7;&#xFF1A;
+        input#user(name='user ', placeholder='请输入用户名', required='')
+        span#user_err
+        br
+        br
+        | &#x9;&#x9;&#x9;&#x5BC6;&#x7801;&#xFF1A;
+        input#pass(name='pass', type='password', placeholder='请输入密码', required='')
+        span#pass_err
+        br
+        br
+        br
+        br
+        input.ce(type='submit', value='登录')
+br
+div
+    p &#x672C;&#x4EA7;&#x54C1;&#x6700;&#x7EC8;&#x89E3;&#x91CA;&#x6743;&#x5F52;&#x82F9;&#x679C;&#xFF08;&#x4E2D;&#x56FD;&#xFF09;&#x516C;&#x53F8;&#x6240;&#x6709;@apple.cn.com
