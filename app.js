@@ -21,6 +21,7 @@ var macpjRouter = require('./routes/macpj')
 var xsyhRouter = require('./routes/xsyh')
 var wyRouter = require('./routes/wy')
 var syyRouter = require('./routes/syy')
+var macbookairRouter = require('./routes/macbookair')
 
 var app = express();
 
@@ -51,6 +52,7 @@ app.use('/macpj',macpjRouter)
 app.use('/xsyh',xsyhRouter)
 app.use('/wy',wyRouter)
 app.use('/syy',syyRouter)
+app.use('/macbookair',macbookairRouter)
 
 
 

@@ -1,0 +1,519 @@
+/*
+	Mac BTR CSS
+	===============================================
+*/
+
+.as-colorselector-options .as-colorselector-noswatch {
+    display: none;
+}
+
+@media only screen and (max-device-width: 320px) {
+    .as-promo-img {
+        padding-right: 12px;
+    }
+}
+
+.family-mac-macbookair .as-bundleselection-modeltitlebox {
+    padding-bottom: 20px;
+}
+
+.family-mac-imacpro .as-bundleselection-container {
+    padding-bottom: 0;
+}
+
+.family-mac-imacpro .as-bundleselection-summary {
+    padding-bottom: 50px;
+}
+
+@media only screen and (max-width:736px) and (max-device-width:768px) {
+    .family-mac-macbookair .as-bundleselection-modeltitlebox {
+        padding-bottom: 0px;
+    }
+
+    .family-mac-imacpro .as-bundleselection-summary {
+        padding-bottom: 0;
+    }
+
+    .as-filter-button:lang(hu) {
+        white-space: normal;
+        width: 157px;
+        text-align: center;
+    }
+}
+
+.th .as-price-installments > a:after {
+    display: inline;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
+    .fi .family-mac-imac .as-filter-button,
+    .fi .family-mac-imacvesa .as-filter-button {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .fi .family-mac-imac .as-filter-button.as-filter-buttonactive,
+    .fi .family-mac-imacvesa .as-filter-button.as-filter-buttonactive {
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+}
+
+/* Header text alignment */
+.as-bundleselection-maintitlebox h1 {
+    width: 600px;
+}
+
+.family-mac-imac .as-bundleselection-maintitlebox h1 {
+    width: 580px;
+}
+
+.family-mac-macbook .as-bundleselection-maintitlebox h1 {
+    width: 540px;
+}
+
+@media only screen and (max-width:736px) and (max-device-width:768px) {
+    .as-macbtr-selection .as-bundleselection-maintitlebox h1 {
+        width: 87.5%;
+    }
+}
+
+/* Overriding external styles */
+.as-macbtr-selection .as-footnotes .as-footnotes-sosumi ol {
+    padding: 0;
+    list-style-position: inside;
+}
+
+.as-bundleselection-model .as-price .as-price-promotions {
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: -.01em;
+}
+
+/* iMac Pro WITB CSS Changes */
+
+.family-mac-imacpro .as-imagelist-container {
+    padding-bottom: 30px;
+}
+
+.family-mac-imacpro .as-imagelist-title {
+    padding: 74px 0 20px;
+}
+
+.family-mac-imacpro .as-imagelist-label {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 29px;
+}
+
+.family-mac-imacpro .as-imagelist-first {
+    width: 198px;
+}
+
+.family-mac-imacpro .as-imagelist-first .as-imagelist-label,
+.family-mac-imacpro .as-imagelist-first .pd-font-caption-copy {
+    padding-left: 21px;
+    padding-right: 9px;
+}
+
+.family-mac-imacpro .as-imagelist-column-2 {
+    width: 270px;
+}
+
+.family-mac-imacpro .as-imagelist-column-2 .as-imagelist-label,
+.family-mac-imacpro .as-imagelist-column-2 .pd-font-caption-copy {
+    padding-left: 39px;
+    padding-right: 81px;
+}
+
+
+.family-mac-imacpro .as-imagelist-column-3 {
+    width: 186px;
+}
+
+.family-mac-imacpro .as-imagelist-column-3 .as-imagelist-label,
+.family-mac-imacpro .as-imagelist-column-3 .pd-font-caption-copy {
+    padding-left: 17px;
+    padding-right: 13px;
+}
+
+.family-mac-imacpro .as-imagelist-column-4 {
+    width: 170px;
+}
+
+.family-mac-imacpro .as-imagelist-last {
+    width: 156px;
+}
+
+.family-mac-imacpro .as-imagelist-last .as-imagelist-label,
+.family-mac-imacpro .as-imagelist-last .pd-font-caption-copy {
+    padding-left: 11px;
+    padding-right: 19px;
+}
+
+/* WITB Starts */
+.as-imagelist-item {
+    padding-bottom: 18px;
+}
+
+.as-imagelist-image {
+    height: 392px;
+}
+
+.as-imagelist-with5items .as-imagelist-first {
+    width: 259px;
+}
+
+.as-imagelist-with5items .as-imagelist-column-2 {
+    width: 194px;
+}
+
+.as-imagelist-with5items .as-imagelist-column-2 .as-imagelist-hero {
+    padding-left: 15px;
+}
+
+.as-imagelist-with5items .as-imagelist-column-2 .as-imagelist-label {
+    margin-left: 14px;
+}
+
+.as-imagelist-with5items .as-imagelist-column-3 {
+    width: 149px;
+}
+
+.as-imagelist-with5items .as-imagelist-column-3 .as-imagelist-label {
+    margin-left: 16px;
+}
+
+.as-imagelist-with5items .as-imagelist-column-4 {
+    width: 199px;
+}
+
+.as-imagelist-with5items .as-imagelist-column-4 .as-imagelist-hero {
+    padding-left: 26px;
+    padding-right: 42px;
+}
+
+.as-imagelist-with5items .as-imagelist-column-4 .as-imagelist-label {
+    padding-left: 50px;
+    padding-right: 60px;
+}
+
+.as-imagelist-with5items .as-imagelist-last {
+    width: 179px;
+}
+
+.as-imagelist-with5items .as-imagelist-last .as-imagelist-hero {
+    text-align: right;
+}
+
+.as-imagelist-with5items .as-imagelist-last .as-imagelist-label {
+     margin-left: 30px;
+}
+
+.as-imagelist-item .pd-witb-tagline,
+.as-imagelist-item .pd-font-caption-copy {
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #888;
+    padding: 0 15px;
+    margin-top: 0;
+}
+
+.as-imagelist-with5items .as-imagelist-column-2 .pd-font-caption-copy {
+    margin-left: 14px;
+}
+
+@media only screen and (max-width:736px) and (max-device-width:768px) {
+    .as-imagelist-label {
+        padding-bottom: 0;
+    }
+
+    .as-imagelist-item .pd-witb-tagline,
+    .as-imagelist-item .pd-font-caption-copy {
+        margin-bottom: 8px;
+    }
+}
+
+
+/* WITB ENDS */
+
+@media only screen and (max-width:736px) and (max-device-width:768px) {
+    .as-macbtr-selection .pd-font-caption-copy {
+        margin-top: -10px;
+    }
+
+    .family-mac-imacpro .pd-font-caption-copy {
+        margin-top: 0px;
+    }
+
+    .family-mac-imacpro .as-imagelist-title {
+        padding: 54px 0 25px;
+    }
+
+    .family-mac-imacpro .as-carousel .ase-gallery-scroll {
+        padding-bottom: 16px;
+    }
+
+    .family-mac-imacpro .as-imagelist-container {
+        padding-bottom: 16px;
+    }
+}
+
+@media only screen and (max-width: 1023px) and (max-device-width: 736px) {
+    .as-imagelist-leftalignimage {
+        text-align: left;
+    }
+
+    .as-imagelist-rightalignimage {
+        text-align: right;
+    }
+}
+
+/*rdar://problem/37922808*/
+.as-promo-content.as-promo-content-hide a {
+  color: white;
+}
+
+/* Fix for new gallery is too wide on iPad devices */
+@media only screen and (min-device-width: 768px) and (max-width: 1068px) {
+    .as-zoomable-inlinecontainer {
+        max-width: 1024px;
+    }
+}
+
+.as-macmini-btr-selection .as-bundleselection {
+    border-bottom: 1px solid #d6d6d6;
+    margin-bottom: 68px;
+}
+
+@media only screen and (max-device-width: 736px) and (max-width: 1023px) {
+    .as-macmini-btr-selection .as-bundleselection {
+        margin-bottom: 43px;
+    }
+}
+
+.as-macmini-btr-selection .as-zoomable-inlinecontainer {
+    max-width: 1024px;
+}
+
+@media only screen and (max-device-width: 736px) and (max-width: 1023px) {
+    .as-macmini-btr-selection .as-zoomable-inlinecontainer {
+        max-width: none;
+    }
+}
+
+/* fixing https://cst.apple.com/tkt.do?tkt=INC071237189 */
+.rr-overlay-open {
+    position: relative;
+    z-index: -1;
+}
+
+.rr-overlay-open-ios {
+    position: fixed;
+}
+
+.family-mac-imacpro .as-bundleselection-modeltitlebox .as-bundleselection-chat {
+    display: none;
+}
+
+.family-mac-imacpro .as-bundleselection-modeltitlebox {
+    padding: 0;
+}
+
+.family-mac-imacpro .as-bundleselection-modeltitlebox > h2,
+.family-mac-imacpro .as-bundleselection-modeltitlebox > div {
+    padding-bottom: 60px;
+    padding-top: 51px;
+}
+
+@media only screen and (max-device-width: 736px) and (max-width: 1023px) {
+    .family-mac-imacpro .as-bundleselection-modeltitlebox > h2,
+    .family-mac-imacpro .as-bundleselection-modeltitlebox > div {
+        padding-bottom: 36px;
+        padding-top: 0;
+    }
+}
+
+.as-buyflow-messagescontainer {
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.as-bundleselection-model.as-buyflow-messages-hidedefaultfinancing + .as-bundleselection-model .as-price .as-price-promotions {
+    display: none;
+}
+
+.as-bundleselection-model:first-child:not(.as-buyflow-messages-hidedefaultfinancing) .as-buyflow-messagelinkcontainer {
+    display: none;
+}
+
+.as-bundleselection-model:not(.as-buyflow-messages-hidedefaultfinancing) + .as-bundleselection-model .as-buyflow-messagelinkcontainer {
+   display: none;
+}
+
+.as-bundleselection-model.as-buyflow-messages-hidedefaultfinancing + .as-bundleselection-model .as-price .as-price-promotions {
+    display: none;
+}
+
+.as-bundleselection-model:first-child:not(.as-buyflow-messages-hidedefaultfinancing) .as-buyflow-messagelinkcontainer {
+    display: none;
+}
+
+.as-bundleselection-model:not(.as-buyflow-messages-hidedefaultfinancing) + .as-bundleselection-model .as-buyflow-messagelinkcontainer {
+   display: none;
+}
+
+
+/* localnav overrides */
+.localnav-standard .localnav-title {
+    margin: 4px 0 8px;
+}
+
+.localnav-standard .localnav-links {
+    margin: 0 0 15px;
+}
+
+@media only screen and (max-width: 1023px) and (max-device-width: 736px) {
+    .localnav-standard .localnav-links {
+        margin: 0 48px;
+    }
+
+    .localnav-standard .localnav-title {
+        padding: 12px 16px 5px;
+        margin: 0;
+    }
+
+    .localnav-wrapper:after {
+        top: 48px;
+    }
+
+    .localnav-standard .localnav-persistent .disclosure-icon-small {
+        top: 6px;
+    }
+}
+
+.localnav-title,
+.localnav-title > .as-chiclets-wrap,
+.localnav-title > .as-chiclets-wrap .as-chiclets-text {
+    font-size: 21px;
+    line-height: 1.14286;
+    font-weight: 600;
+    letter-spacing: 0.011em;
+    font-family: "SF Pro Display", "SF Pro Icons", "AOS Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif; 
+}
+  
+.localnav-title:lang(th),
+.localnav-title > .as-chiclets-wrap:lang(th),
+.localnav-title > .as-chiclets-wrap .as-chiclets-text:lang(th) {
+    letter-spacing: 0em;
+    font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "AOS Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif; 
+}
+ 
+.localnav-title:lang(ar),
+.localnav-title > .as-chiclets-wrap:lang(ar),
+.localnav-title > .as-chiclets-wrap .as-chiclets-text:lang(ar) {
+    font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Display", "SF Pro Icons", "AOS Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif; 
+}
+
+.localnav-title:lang(ja),
+.localnav-title > .as-chiclets-wrap:lang(ja),
+.localnav-title > .as-chiclets-wrap .as-chiclets-text:lang(ja) {
+    font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "AOS Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica Neue", "Helvetica", "Arial", sans-serif; 
+}
+  
+.localnav-title:lang(ko),
+.localnav-title > .as-chiclets-wrap:lang(ko),
+.localnav-title > .as-chiclets-wrap .as-chiclets-text:lang(ko) {
+    font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "AOS Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif; 
+}
+
+.localnav-title:lang(zh-CN),
+.localnav-title > .as-chiclets-wrap:lang(zh-CN),
+.localnav-title > .as-chiclets-wrap .as-chiclets-text:lang(zh-CN) {
+    font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "AOS Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif; 
+}
+
+.localnav-title:lang(zh-HK),
+.localnav-title > .as-chiclets-wrap:lang(zh-HK),
+.localnav-title > .as-chiclets-wrap .as-chiclets-text:lang(zh-HK) {
+    font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "AOS Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif; 
+}
+
+.localnav-title:lang(zh-MO),
+.localnav-title > .as-chiclets-wrap:lang(zh-MO),
+.localnav-title > .as-chiclets-wrap .as-chiclets-text:lang(zh-MO) {
+    font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "AOS Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif; 
+}
+
+.localnav-title:lang(zh-TW),
+.localnav-title > .as-chiclets-wrap:lang(zh-TW),
+.localnav-title > .as-chiclets-wrap .as-chiclets-text:lang(zh-TW) {
+    font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "AOS Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif; 
+}
+  
+@media only screen and (max-width: 1023px) and (max-device-width: 736px) {
+    .localnav-title,
+    .localnav-title > .as-chiclets-wrap,
+    .localnav-title > .as-chiclets-wrap .as-chiclets-text {
+        font-size: 19px;
+        line-height: 1.26316;
+        font-weight: 600;
+        letter-spacing: 0.012em;
+        font-family: "SF Pro Display", "SF Pro Icons", "AOS Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif; 
+    }
+  
+    .localnav-title:lang(th),
+    .localnav-title > .as-chiclets-wrap:lang(th),
+    .localnav-title > .as-chiclets-wrap .as-chiclets-text:lang(th) {
+        letter-spacing: 0em;
+        font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "AOS Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif; 
+    }
+  
+    .localnav-title:lang(ar),
+    .localnav-title > .as-chiclets-wrap:lang(ar),
+    .localnav-title > .as-chiclets-wrap .as-chiclets-text:lang(ar) {
+        font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Display", "SF Pro Icons", "AOS Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif; 
+    }
+  
+    .localnav-title:lang(ja),
+    .localnav-title > .as-chiclets-wrap:lang(ja),
+    .localnav-title > .as-chiclets-wrap .as-chiclets-text:lang(ja) {
+        font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "AOS Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica Neue", "Helvetica", "Arial", sans-serif; 
+    }
+  
+    .localnav-title:lang(ko),
+    .localnav-title > .as-chiclets-wrap:lang(ko),
+    .localnav-title > .as-chiclets-wrap .as-chiclets-text:lang(ko) {
+        font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "AOS Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif; 
+    }
+  
+    .localnav-title:lang(zh-CN),
+    .localnav-title > .as-chiclets-wrap:lang(zh-CN),
+    .localnav-title > .as-chiclets-wrap .as-chiclets-text:lang(zh-CN) {
+        font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "AOS Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif; 
+    }
+  
+    .localnav-title:lang(zh-HK),
+    .localnav-title > .as-chiclets-wrap:lang(zh-HK),
+    .localnav-title > .as-chiclets-wrap .as-chiclets-text:lang(zh-HK) {
+        font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "AOS Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif; 
+    }
+  
+    .localnav-title:lang(zh-MO),
+    .localnav-title > .as-chiclets-wrap:lang(zh-MO),
+    .localnav-title > .as-chiclets-wrap .as-chiclets-text:lang(zh-MO) {
+        font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "AOS Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif; 
+    }
+  
+    .localnav-title:lang(zh-TW),
+    .localnav-title > .as-chiclets-wrap:lang(zh-TW),
+    .localnav-title > .as-chiclets-wrap .as-chiclets-text:lang(zh-TW) {
+        font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "AOS Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif; 
+    }
+}
