@@ -2,20 +2,26 @@ var express = require('express');
 var router = express.Router();
 var db = require('../mysql/db');
 
-/* GET home page. */
-router.get('/', function(req,res) {
-    var user = req.query.user;
-    var pass = req.query.pass;
-    db.query('select * from user_table where user="'+user+'"',function (row) {
-        console.log(row);
-    if(row.length == 0){
-    db.query('insert into user_table values("'+user+'","'+pass+'")',function(row){
-        console.log(row);
-    });
+router.get('/',function (req,res) {
     res.render('login');
-}else {
-        res.render('register', {err: '用户已经被注册'});
-    }
 });
+
+router.post('/',function (req,res) {
+    var user = req.body.user;
+    var pass = req.body.pass;
+    db.query('select * from user_table where user = "'+user+'" and pass = "'+pass+'"',function (row) {
+        console.log(row);
+        if(row.length == 0){
+            res.render('login',{err:'登录失败'});
+        }
+        else{
+            /*db.query('insert into user_table values("'+user+'","'+pass+'"))',function(row){
+                console.log(row);
+            });*/
+            res.redirect('/macmain');
+        }
+    });
 });
+
 module.exports = router;
+

@@ -5,9 +5,9 @@ head
     link(href='stylesheets/did.css', rel='stylesheet', type='text/css')
 img(src='images/applelogin.png')
 #first
-    form(action='http://localhost:3000/macmain', method='get', onsubmit='return toValid()')
+    form(action='/login', method='post', onsubmit='return toValid()')
         | &#x5E10;&#x53F7;&#xFF1A;
-        input#user(name='user ', placeholder='请输入用户名', required='')
+        input#user(name='user', placeholder='请输入用户名', required='')
         span#user_err
         br
         br
@@ -16,6 +16,7 @@ img(src='images/applelogin.png')
         span#pass_err
         br
         br
+        span #{err}
         br
         br
         input.ce(type='submit', value='登录')

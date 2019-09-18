@@ -5,7 +5,7 @@ head
     link(href='stylesheets/do.css', rel='stylesheet', type='text/css')
 img(src='images/applece.jpg')
 #first
-    form(action='http://localhost:3000/login', method='get', onsubmit='return toValid()')
+    form(action='/register', method='post', onsubmit='return toValid()')
         | &#x767B;&#x5F55;&#x5E10;&#x53F7;&#xFF1A;
         input#user(name='user', placeholder='请输入用户名', required='')
         span#user_err #{err}
