@@ -124,6 +124,7 @@
 
 
 .list1{
+    position:relative;
     display: inline-block;
     width:238px ;
     text-align: left;
@@ -134,6 +135,7 @@
 .ul_style3{
     background-color: #0f1015;
     text-align: left;
+    list-style: none;
 }
 .ul_style3 ol{
     margin:0 auto;
@@ -152,4 +154,21 @@
 
 .none{
     color: #0a0b0f;
+}
+.tab{
+    position: absolute;
+    display: none;
+    left: 241px;
+    top: 16px;
+}
+.ul_style3 li:hover .tab{
+    display: block;
+}
+
+.ul_text3:hover{
+    color: blue;
+}
+.imag1{
+    width: 1000px;
+    height: 290px;
 }

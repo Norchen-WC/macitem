@@ -12,6 +12,7 @@ var macmainRouter = require('./routes/macmain')
 var macairRouter = require('./routes/macair')
 var macproRouter = require('./routes/macpro')
 var imacRouter = require('./routes/imac')
+var macosRouter = require('./routes/macos')
 var macminiRouter = require('./routes/macmini')
 var imacproRouter = require('./routes/imacpro')
 var prodisplayxdrRouter = require('./routes/prodisplayxdr')
@@ -53,6 +54,7 @@ app.use('/xsyh',xsyhRouter)
 app.use('/wy',wyRouter)
 app.use('/syy',syyRouter)
 app.use('/macbookair',macbookairRouter)
+app.use('/macos',macosRouter)
 
 
 
