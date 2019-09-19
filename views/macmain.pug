@@ -6,84 +6,94 @@ head
     marquee.macad &#x5E7F;&#x544A;
 #first
     ul.title
-        li
-            .first_li
-                a.pick(href='http://localhost:3000/macair')
-                    img.mac_img(src='images/macbookair__ej39du0gz4uq_large.svg')
-                    span.text Macbook Air
-                br
-                span.xin &#x65B0;&#x6B3E;
-        li
-            .first_li
-                a.pick(href='http://localhost:3000/Machxh')
-                    img.mac_img(src='images/macbookpro__enfip2k1cxkm_large.svg')
-                    span.text Macbook Pro
-                br
-                span.xin &#x65B0;&#x6B3E;
-        li
-            .first_li
-                a.pick(href='http://localhost:3000/imac')
-                    img.mac_img(src='images/imac__dkswmjfqeziq_large.svg')
-                    br
-                    span.text IMac
-                br
-                span.old &#x65E7;&#x6B3E;
-        li
-            .first_li
-                a.pick(href='http://localhost:3000/imacpro')
-                    img.mac_img(src='images/imac_pro__eer4bfwlutme_large.svg')
-                    br
-                    span.text IMac Pro
-                br
-                span.old &#x65E7;&#x6B3E;
-        li
-            .first_li
-                a.pick(href='http://localhost:3000/macpro')
-                    img.mac_img(src='images/mac_pro__bn92faz71k6a_large.svg')
-                    br
-                    span.text Mac Pro
-                br
-                span.xin &#x65B0;&#x6B3E;
-        li
-            .first_li
-                a.pick(href='http://localhost:3000/macmini')
-                    img.mac_img(src='images/macmini__c6u0it831y0y_large.svg')
-                    br
-                    span.text Mac mini
-                br
-                span.old &#x65E7;&#x6B3E;
-        li
-            .first_li
-                a.pick(href='http://localhost:3000/macjx')
-                    img.mac_img(src='images/mac_comp__ee2pokmcxh26_large.svg')
-                    br
-                    span.text &#x673A;&#x578B;&#x6BD4;&#x8F83;
-                br
-                span.old &#x65E7;&#x6B3E;
-        li
-            .first_li
-                a.pick(href='http://localhost:3000/prodisplayxdr')
-                    img.mac_img(src='images/pro_display_xdr__do0vjpny1kqe_large.svg')
-                    span.text Pro Display XDR
-                br
-                span.xin &#x65B0;&#x6B3E;
-        li
-            .first_li
-                a.pick(href='http://localhost:3000/macpj')
-                    img.mac_img(src='images/mac_acc__fy6vtx5eqoyi_large.svg')
-                    br
-                    span.text &#x914D;&#x4EF6;
-                br
-                span.old &#x65E7;&#x6B3E;
-        li
-            .first_li
-                a.pick(href='')
-                    img.mac_img(src='images/mac_osx__dntc9ef2limq_large.svg')
-                    br
-                    span.text Mojave
-                br
-                span.old &#x65E7;&#x6B3E;
-br
+        each i in row
+               li
+                   .first_li
+                       a.pick(href=i.first_tp)
+                           img.mac_img(src=i.first_images)
+                           br
+                           span.text #{i.first_text}
+                           br
+                           span.xin #{i.first_kuan}
+                           span.old #{i.first_xuan}
+//        li
+//            .first_li
+//                a.pick(href='http://localhost:3000/macair')
+//                    img.mac_img(src='images/macbookair__ej39du0gz4uq_large.svg')
+//                    span.text Macbook Air
+//                br
+//                span.xin &#x65B0;&#x6B3E;
+//        li
+//            .first_li
+//                a.pick(href='http://localhost:3000/Machxh')
+//                    img.mac_img(src='images/macbookpro__enfip2k1cxkm_large.svg')
+//                    span.text Macbook Pro
+//                br
+//                span.xin &#x65B0;&#x6B3E;
+//        li
+//            .first_li
+//                a.pick(href='http://localhost:3000/imac')
+//                    img.mac_img(src='images/imac__dkswmjfqeziq_large.svg')
+//                    br
+//                    span.text IMac
+//                br
+//                span.old &#x65E7;&#x6B3E;
+//        li
+//            .first_li
+//                a.pick(href='http://localhost:3000/imacpro')
+//                    img.mac_img(src='images/imac_pro__eer4bfwlutme_large.svg')
+//                    br
+//                    span.text IMac Pro
+//                br
+//                span.old &#x65E7;&#x6B3E;
+//        li
+//            .first_li
+//                a.pick(href='http://localhost:3000/macpro')
+//                    img.mac_img(src='images/mac_pro__bn92faz71k6a_large.svg')
+//                    br
+//                    span.text Mac Pro
+//                br
+//                span.xin &#x65B0;&#x6B3E;
+//        li
+//            .first_li
+//                a.pick(href='http://localhost:3000/macmini')
+//                    img.mac_img(src='images/macmini__c6u0it831y0y_large.svg')
+//                    br
+//                    span.text Mac mini
+//                br
+//                span.old &#x65E7;&#x6B3E;
+//        li
+//            .first_li
+//                a.pick(href='http://localhost:3000/macjx')
+//                    img.mac_img(src='images/mac_comp__ee2pokmcxh26_large.svg')
+//                    br
+//                    span.text &#x673A;&#x578B;&#x6BD4;&#x8F83;
+//                br
+//                span.old &#x65E7;&#x6B3E;
+//        li
+//            .first_li
+//                a.pick(href='http://localhost:3000/prodisplayxdr')
+//                    img.mac_img(src='images/pro_display_xdr__do0vjpny1kqe_large.svg')
+//                    span.text Pro Display XDR
+//                br
+//                span.xin &#x65B0;&#x6B3E;
+//        li
+//            .first_li
+//                a.pick(href='http://localhost:3000/macpj')
+//                    img.mac_img(src='images/mac_acc__fy6vtx5eqoyi_large.svg')
+//                    br
+//                    span.text &#x914D;&#x4EF6;
+//                br
+//                span.old &#x65E7;&#x6B3E;
+//        li
+//            .first_li
+//                a.pick(href='')
+//                    img.mac_img(src='images/mac_osx__dntc9ef2limq_large.svg')
+//                    br
+//                    span.text Mojave
+//                br
+//                span.old &#x65E7;&#x6B3E;
+//br
 .second
     br
     br
@@ -129,7 +139,7 @@ br
     br
     a.xuan(href='http://localhost:3000/Machxh') &#x8FDB;&#x4E00;&#x6B65;&#x4E86;&#x89E3; &gt;
     br
-    a.xuan(href='')  &#x8D2D;&#x4E70; &gt;
+    a.xuan(href='http://localhost:3000/gm')  &#x8D2D;&#x4E70; &gt;
     img.big(src='images/2.png')
     br
     br
