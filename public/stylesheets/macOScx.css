@@ -1,0 +1,277 @@
+.nav {
+    background-color: #4e4b4b;
+    height: 40px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+    margin-bottom: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.nav ul {
+    margin: 0 auto;
+    padding-left: 20px;
+    align-items: center;
+    width: 80%;
+    display: flex;
+
+}
+.nav li{
+    list-style-type: none;
+    display:inline-block;
+    color: white;
+    font-size:14px;
+    margin-top: 7px;
+}
+.nav li:hover{
+    cursor: pointer;
+    opacity: 0.65;
+}
+.nav2{
+    background-color: black;
+    height: 44px;
+    text-align: center;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+}
+.nav2 ul{
+    margin: 0 auto;
+    padding: 0;
+    align-items: center;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav2 li{
+    list-style-type: none;
+    display:inline-block;
+    color: white;
+    font-size:14px;
+}
+.nav2 li:hover{
+    cursor: pointer;
+    opacity: 0.65;
+}
+.nav2 img{
+    vertical-align: middle;
+    height:44px;
+}
+.w1{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.k1{
+    width:1538px;
+    height: 1200px;
+    background: white;
+}
+.p1{
+    font-size: 65px;
+    text-align: center;
+}
+.k2{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    height: 100px;
+    text-align: center;
+}
+.p2{
+    font-size: 21px;
+
+}
+.text1{
+    text-align: center;
+    margin-top: 50px;
+
+}
+.k3{
+    width: 100%;
+    height: 500px;
+    background-image:url(../images/ph2.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    color:white;
+    text-align: center;
+    padding-top: 180px;
+}
+.p3{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.p4{
+    font-size: 20px;
+    margin-left: -40px;
+    margin-bottom: -30px;
+}
+.p5{
+    font-size: 18px;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.k4{
+    width:1250px;
+    height: 400px;
+    background: white;
+    margin-left: 150px;
+    margin-top:100px;
+}
+.chen{
+    text-decoration: none;
+    color:royalblue ;
+}
+.p6{
+    font-size: 18px;
+    width: 500px;
+}
+.k5{
+    width: 100%;
+    height: 1238px;
+    background: whitesmoke;
+}
+.k6{
+    width: 1300px;
+    height: 800px;
+    background: whitesmoke;
+    text-align: center;
+    margin-top: 30px;
+}
+.k7{
+    background: whitesmoke;
+    margin-left: 150px;
+    margin-top:100px;
+    padding-top: 150px;
+
+
+}
+.k8{
+    width: 100%;
+    height: 3000px;
+    background: whitesmoke;
+
+}
+.k9{
+    background: whitesmoke;
+    width:1280px;
+    height: 300px;
+    text-align: center;
+}
+.k10{
+    background: whitesmoke;
+    width: 450px;
+    height: 250px;
+    float: left;
+    padding-top: 70px;
+    padding-left: 150px;
+    padding-right: 30px;
+}
+.p7{
+    font-size: 21px;
+    float: left;
+}
+.k11{
+    width: 1250px;
+    height: 400px;
+    background: white;
+    margin-left: 150px;
+    margin-top:100px;
+}
+ul{
+    list-style: none;
+    margin-block-start:50px;
+    margin-block-end:0;
+    padding-inline-start:0;
+    padding-left: 30px;
+
+}
+li{
+    list-style-type: none;
+    display: inline;
+    padding-left: 30px;
+    font-size: 16px;
+}
+.k12{
+
+    height: 400px;
+    float: left;
+    margin-left: 150px;
+    margin-top: -100px;
+}
+.k13{
+    background: whitesmoke;
+    width: 100%;
+    height: 700px;
+}
+.k14{
+    width: 100%;
+    height: 700px;
+    background: white;
+}
+.a_ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    margin-top: 10px;
+}
+.a_li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+    font-size: 15px;
+}
+ol{
+    padding-top: 30px;
+}
+.ul_2{
+    list-style-type:none ;
+    display: inline;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    margin-top: 10px;
+}
+.ul_2 li{
+    text-align: center;
+    display: list-item;
+
+}
+.last{
+    display: inline-block;
+    width:20% ;
+    text-align: center;
+    background: whitesmoke;
+    margin-left: 40px;
+}
+.te1{
+    display: inline-block;
+    font-size: 10px;
+    text-align: center;
+    width:1538px ;
+    color: gray;
+}
+.te2{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+.pick_1{
+    text-align: center;
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+}
+.none{
+    color: whitesmoke;
+}

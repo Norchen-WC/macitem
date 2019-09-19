@@ -24,7 +24,8 @@ var wyRouter = require('./routes/wy')
 var syyRouter = require('./routes/syy')
 var macbookairRouter = require('./routes/macbookair')
 var gmRouter = require('./routes/gm')
-
+var tuihuoyhRouter = require('./routes/tuihuoyh')
+var macOScxRouter = require('./routes/macOScx')
 var app = express();
 
 // view engine setup
@@ -57,7 +58,8 @@ app.use('/syy',syyRouter)
 app.use('/macbookair',macbookairRouter)
 app.use('/macos',macosRouter)
 app.use('/gm',gmRouter)
-
+app.use('/tuihuoyh',tuihuoyhRouter)
+app.use('/macOScx',macOScxRouter)
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
