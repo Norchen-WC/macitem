@@ -21267,7 +21267,7 @@ html.ie8.ac-gn-segmentbar-visible .adv-wrapper,html.oldie.ac-gn-segmentbar-visib
 }
 .left-s{
     height:40px;
-    width:177px;
+    width:300px;
     float:left;
     margin-left: 12px;
 }
@@ -21278,4 +21278,7 @@ html.ie8.ac-gn-segmentbar-visible .adv-wrapper,html.oldie.ac-gn-segmentbar-visib
 body{
     background: black;
     color:white;
+}
+.title{
+    color: white;
 }
