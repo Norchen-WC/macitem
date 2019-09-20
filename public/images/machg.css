@@ -1,0 +1,118 @@
+.mac主页广告{
+	font-size: 20px;
+	background: dimgray;
+	height: 30px;
+	width:1538px ;
+    bottom: 0px;
+	right: 0px;
+	position:relative;
+}
+.zhuye{
+	width:1538px ;
+	display: initial;
+	
+}
+.bg1{
+	background-image:url(hg1.jpg) ;
+	background-size: cover;
+	display: block;
+	float: initial;
+	text-align: center;
+	width: 1538px;
+	height:1100px ;
+}
+.w1{
+	font-size: 20px;
+	font-weight: bolder;
+	text-align: center;
+}
+.w2{
+	font-size: 45px;
+	font-weight: bolder;
+	text-align: center;
+}
+.w3{
+	font-size: 20px;
+	text-align: center;
+}
+.juzhong{
+	text-align: center;
+}
+.bg0{
+	background: url(bk.png)  center;
+	background-size: cover;
+	height: 500px;
+	width: 1538px;
+}
+.button1{
+	width: 200px;
+	height: 200px;
+}
+.bk3{
+	background: gainsboro;
+}
+.bg2{
+	background: url(hg2.jpg) center;
+	background-size: cover;
+	width: 1538px;
+	height:3000px ;
+}
+.bg3{
+	background: url(h9.jpg) center;
+	background-size: cover;
+	height:1200px;
+	width: 1538px;
+
+	
+}
+.bg4{
+	background: url(bk.png) center;
+	background-size: cover;
+	height: 1000px;
+	
+}
+.bg5{
+	background: url(hg3.jpg)  center;
+	background-size: cover;
+	height: 1200px;
+	width: 1538px;
+}
+.w4{
+	font-size: 10px;
+	text-align: center;
+}
+.second2{
+			background-image: url(bk.png);
+			background-size: cover;
+			height: 400px;
+			width: 1538px;
+			text-align: center;
+		}
+		.last{
+			display: inline-block;
+			width:300px ;
+			text-align: center;
+
+		}
+		.te8{
+			font-size: 10px;
+			font-weight: bold;
+			text-align: center;	
+			color: black;
+		}
+		.pick_1{
+			text-align: center;
+			text-decoration: none;
+			color: gray;
+			font-size: 12px;
+		}
+		.none{
+			color: whitesmoke;
+		}
+		.te7{
+			display: inline-block;
+			font-size: 10px;
+			text-align: center;	
+			width:1538px ;
+			color: gray;
+		}
